@@ -23,9 +23,8 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
-
-Here you can search files in inline mode. Just press follwing buttons and start searching.
+**Hi, I'm Media Search Bot can call me as Jelly Been Auto Filter Bot**
+I am an advanced group management bot by @senuinfinity.💫
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
