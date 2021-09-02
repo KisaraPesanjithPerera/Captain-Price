@@ -14,7 +14,7 @@
   </a>  
 </p>
 
-<p align="center"><a href="https://t.me/senuinfinity"><img src="https://telegra.ph/file/60baaeb7acb49cf227c48.png" width="400"></a></p>
+<p align="center"><a href="https://t.me/senuinfinity"><img src="https://telegra.ph/file/49dda0698f526f267edce.png" width="400"></a></p>
 <p align="center">
   
 
