@@ -11,6 +11,11 @@
   <a href="https://github.com/SenuGamerBoy/jelly-been-filter-bot/fork">
     <img src="https://img.shields.io/github/forks/SenuGamerBoy/jelly-been-filter-bot?label=Fork&style=social">
 
+  </a>
+  
+  <a href="https://github.com/SenuGamerBoy/jelly-been-filter-bot/fork">
+    <img src="https://img.shields.io/github/followers/SenuGamerBoy?style=social">
+
   </a>  
 </p>
 
