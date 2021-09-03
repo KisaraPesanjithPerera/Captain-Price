@@ -1,5 +1,5 @@
 {
-    "name": "Media Search bot",
+    "name": "Jely Been bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "keywords": [
       "telegram",
@@ -14,7 +14,7 @@
       "index",
       "inline"
     ],
-    "website": "t.me/senuinfinity",
+    "website": "https://telegram.dog/senuinfinity",
     "repository": "https://github.com/SenuGamerBoy/jelly-been-filter-bot",
     "env": {
         "BOT_TOKEN": {
@@ -30,26 +30,26 @@
             "value": ""
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space. Get ID From @AnimXinfo_Robot Bot",
+            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
             "value": ""
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space. Get ID From @AnimXinfo_Robot Bot",
+            "description": "Username or ID of Admin. Separate multiple Admins by space. @AnimXinfo_Robot",
             "value": ""
         },
         "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage. Get ID From @AnimXinfo_Robot Bot",
+            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage. @MT_ID_Bot",
             "value": "",
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot. Get ID From @AnimXinfo_Robot Bot",
+            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
             "value": "",
             "required": false
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm Media Search Bot can call me as Jelly Been Auto Filter Bot**\n\nI am an advanced group management bot by @senuinfinity.💫.",
+            "value": "**Hi, I'm Jely Been Clone you can call me as Jely Been **\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
             "required": false
         },
         "USE_CAPTION_FILTER": {
