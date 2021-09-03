@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
-    if usr_cmdall1.startswith("/start senu infinity"):
+    if usr_cmdall1.startswith("/start subinps"):
         if AUTH_CHANNEL:
             invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
             try:
@@ -19,7 +19,7 @@ async def start(bot, cmd):
                 if user.status == "kicked":
                     await bot.send_message(
                         chat_id=cmd.from_user.id,
-                        text="Sorry Sir, You are Banned to use me 😢.",
+                        text="Sorry Sir, You are Banned to use me 😥.",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -28,7 +28,7 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot 😁!**",
+                    text="**Please Join My Updates Channel to use this Bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -199,4 +199,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
-    await message.reply(text=f"<b>Developer : <a href='https://t.me/senuinfinity'>Senu Infinity 😎</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinity'>Mo Tech YT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text=f"<b>Developer : <a href='https://t.me/senuinfinity'>Senu Infinity</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinitygroup'>Support Group</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
