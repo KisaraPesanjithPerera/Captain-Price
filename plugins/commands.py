@@ -67,7 +67,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Support 🖥️', url=f'{TUTORIAL}')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -199,4 +199,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Video', url=f'{TUTORIAL}')
         ]
         ]
-    await message.reply(text=f"<b>Developer : <a href='https://t.me/senuinfinity'>Senu Infinity</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinitygroup'>Support Group</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text=f"<b>Developer : <a href='https://t.me/senuinfinity'>Senu Infinity</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinitygroup'>Support Group</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
