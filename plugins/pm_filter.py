@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Source Code', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"<b>Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group: <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Support 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -329,7 +329,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Support 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
                 
