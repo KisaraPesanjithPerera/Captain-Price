@@ -91,7 +91,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+            InlineKeyboardButton('🖥️ Support 🖥️', url=f'{TUTORIAL}')
         ],
         [
             InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
