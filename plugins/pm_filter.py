@@ -82,7 +82,7 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ\n\n🎬 Film/Series: {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>𝗜 𝗳𝗼𝘂𝗻𝗱 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆\n\n🎥𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆 : {search}\n\n💎𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙗𝙚𝙡𝙤𝙬 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩. 𝙔𝙤𝙪 𝙬𝙞𝙡𝙡 𝙜𝙚𝙩 𝙮𝙤𝙪𝙧 𝙢𝙤𝙫𝙞𝙚.💎\n\n𝐒𝐞𝐧𝐮 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲🥇 ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
                 await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
@@ -101,7 +101,7 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ\n\n🎬 Film/Series: {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>✅𝗜 𝗳𝗼𝘂𝗻𝗱 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆\n\n🎥𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆 : {search}\n\n💎𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙗𝙚𝙡𝙤𝙬 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩. 𝙔𝙤𝙪 𝙬𝙞𝙡𝙡 𝙜𝙚𝙩 𝙮𝙤𝙪𝙧 𝙢𝙤𝙫𝙞𝙚.💎\n\n𝐒𝐞𝐧𝐮 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲🥇 ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -146,7 +146,7 @@ async def group(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=f"<b>✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ\n\n🎬 Film/Series : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>✅ 𝗜 𝗳𝗼𝘂𝗻𝗱 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆\n\n🎥𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆 : {search}\n\n💎𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙗𝙚𝙡𝙤𝙬 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩. 𝙔𝙤𝙪 𝙬𝙞𝙡𝙡 𝙜𝙚𝙩 𝙮𝙤𝙪𝙧 𝙢𝙤𝙫𝙞𝙚.💎\n\n𝐒𝐞𝐧𝐮 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲🥇 ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
                 await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
@@ -164,7 +164,7 @@ async def group(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=f"<b>✅ ᴡᴇ ꜰᴏᴜɴᴅ ɪᴛ\n\n🎬 Film/Series : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>✅ 𝗜 𝗳𝗼𝘂𝗻𝗱 𝗿𝗲𝘀𝘂𝗹𝘁𝘀 𝗼𝗻 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆\n\n🎥𝗬𝗼𝘂𝗿 𝗤𝘂𝗲𝗿𝘆 : {search}\n\n💎𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣𝙨 𝙗𝙚𝙡𝙤𝙬 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙩𝙩𝙤𝙣 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩. 𝙔𝙤𝙪 𝙬𝙞𝙡𝙡 𝙜𝙚𝙩 𝙮𝙤𝙪𝙧 𝙢𝙤𝙫𝙞𝙚.💎\n\n𝐒𝐞𝐧𝐮 𝐈𝐧𝐟𝐢𝐧𝐢𝐭𝐲🥇 ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(f"<b>Move {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
