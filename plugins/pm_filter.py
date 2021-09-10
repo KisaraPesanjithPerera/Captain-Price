@@ -57,7 +57,7 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"SenuInfinity#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
             await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAIBL2EyGDXia0_ZlzsUchZe6LubG4U3AAIkAAOymJoOXfnDiNVs2SAeBA')
@@ -123,7 +123,7 @@ async def group(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=SenuInfinity_-_-_-_{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")]
                 )
         else:
             return
