@@ -31,7 +31,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🔰 Join Updates Channel 🔰", url=invite_link.invite_link)
+                            InlineKeyboardButton("🐞 Join Updates Channel 🐞", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -277,8 +277,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Support 😁', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"<b>Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSupport Group : <a href='{TUTORIAL}'>Click here</a>\nUpdate Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-
+            await message.reply(text=f"<b>👋Hi,\nI am Very Powerfull Movie Filter Bot By @senuinfinity\n\nAbout Me 🗯\n🔬Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a>\nSource Code 📑 : 🔐\nSupport 🌻: <a href='{TUTORIAL}'>Click here</a>\nMy Updates 🎇: <a href='https://t.me/senuinfinitygroup'>Click here</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            
 
 
         elif query.data.startswith("subinps"):
