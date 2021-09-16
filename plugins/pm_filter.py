@@ -277,7 +277,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Support 😁', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"<b>About Me ⚡\n\n👨‍💻Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Support Group : <a href='{TUTORIAL}'>Click here</a>\n📋Update Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>🔘 Just Send Series Name and Season OR Use Inline Search Button.\n\n[Dont Use words Like Season/Episode/Series]\n\n♻️ If any series is Not Available, Then Request it at\n@jelybenn_request_Bot\n\n👨‍💻Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Support Group : <a href='{TUTORIAL}'>Click here</a>\n📋Update Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
