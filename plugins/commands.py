@@ -32,7 +32,7 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🗱 Join Updates Channel 🗱", url=invite_link.invite_link)
+                                InlineKeyboardButton("❖ Join Updates Channel ❖", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("↺ Try Again ↻", callback_data=f"checksub#{file_id}")
@@ -103,10 +103,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("🔍 Search Here 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("✂My Updates✂", url="https://t.me/senuinfinity")
+                        InlineKeyboardButton("↺ My Updates ↻", url="https://t.me/senuinfinity")
                     ],
                     [
-                        InlineKeyboardButton("🗱 About Me 🗱", callback_data="about")
+                        InlineKeyboardButton("❖ About Me ❖", callback_data="about")
                     ]
                 ]
             )
@@ -149,7 +149,7 @@ async def total(bot, message):
     msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'📁 All My DB Saved files: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
