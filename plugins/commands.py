@@ -102,7 +102,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔍 Search Here 🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("⎚ Search Here ⎚", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("↺ My Updates ↻", url="https://t.me/senuinfinity")
                     ],
                     [
