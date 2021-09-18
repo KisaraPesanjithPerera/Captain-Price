@@ -57,7 +57,7 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"SenuInfinity#{file_id}")]
                     )
         else:
             await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAIBL2EyGDXia0_ZlzsUchZe6LubG4U3AAIkAAOymJoOXfnDiNVs2SAeBA')
@@ -115,6 +115,7 @@ async def group(client, message):
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
+            botusername=await client.get_me()
             nyva=botusername.username
             BOT["username"]=nyva
         files = await get_filter_results(query=search)
@@ -123,7 +124,7 @@ async def group(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=SenuInfinity_-_-_-_{file_id}")]
                 )
         else:
             return
@@ -281,7 +282,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
 
-        elif query.data.startswith("subinps"):
+        elif query.data.startswith("SenuInfinity"):
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
             for files in filedetails:
