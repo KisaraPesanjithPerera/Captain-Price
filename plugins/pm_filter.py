@@ -85,14 +85,14 @@ async def filter(client, message):
                 await message.reply_photo(photo=poster, caption=f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="NEXT ➡",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
@@ -103,7 +103,7 @@ async def filter(client, message):
         if poster:
             await message.reply_photo(photo=poster, caption=f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
@@ -149,14 +149,14 @@ async def group(client, message):
             if poster:
                 await message.reply_photo(photo=poster, caption=f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             else:
-                await message.reply_text(f"<b>Name {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="NEXT ⇨",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
             [InlineKeyboardButton(text=f"📃 Pages 1/{data['total']}",callback_data="pages")]
@@ -167,7 +167,7 @@ async def group(client, message):
         if poster:
             await message.reply_photo(photo=poster, caption=f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_text(f"<b>Move {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(f"<b>🎥Film Name : {search} ‌‌‌‌‎ ­  ­  ­  ­  ­  </b>", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 def get_size(size):
@@ -209,7 +209,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⌫ BACK", callback_data=f"back_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
@@ -223,7 +223,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)+1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⌫ BACK", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⇨", callback_data=f"next_{int(index)+1}_{keyword}")]
+                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages")]
@@ -247,7 +247,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("NEXT ⇨", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
@@ -261,7 +261,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = data['buttons'][int(index)-1].copy()
 
                 buttons.append(
-                    [InlineKeyboardButton("⌫ BACK", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⇨", callback_data=f"next_{int(index)-1}_{keyword}")]
+                    [InlineKeyboardButton("⏪ BACK", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
                     [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages")]
@@ -274,11 +274,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='t.me/senuinfinity'),
+                    InlineKeyboardButton('Update Channel', url='t.me/MHO_Alert'),
                     InlineKeyboardButton('Support 😁', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"<b>🔘 Just Send Series Name and Season OR Use Inline Search Button.\n\n[Dont Use words Like Season/Episode/Series]\n\n♻️ If any series is Not Available, Then Request it at\n@jelybenn_request_Bot\n\n👨‍💻Developer : <a href='https://github.com/SenuGamerBoy'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Support Group : <a href='{TUTORIAL}'>Click here</a>\n📋Update Channel : <a href='https://t.me/senuinfinity'>Senu Infinity</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>🔘 Just Send Series Name and Season OR Use Inline Search Button.\n\n[Dont Use words Like Season/Episode/Series]\n\n♻️ If any series is Not Available, Then Request it at\n@jelybenn_request_Bot\n\n👨‍💻Developer : <a href='https://github.com/KisaraPesanjithPerera'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Support Group : <a href='{TUTORIAL}'>Click here</a>\n📋Update Channel : <a href='https://t.me/MHO_Alert'>🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛🎥𝐀𝐥𝐞𝐫𝐭🔥</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -346,4 +346,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("Isn't it a little more interesting? 😅 @senuinfinity",show_alert=True)
+        await query.answer("Isn't it a little more interesting? 😅 @MHO_Alert",show_alert=True)
