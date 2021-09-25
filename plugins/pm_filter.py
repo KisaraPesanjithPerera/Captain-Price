@@ -31,7 +31,7 @@ async def filter(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🐞 Join Updates Channel 🐞", url=invite_link.invite_link)
+                            InlineKeyboardButton("♻️ Join Updates Channel ♻️", url=https://t.me/MHO_Alert)
                         ]
                     ]
                 ),
@@ -275,7 +275,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('Update Channel', url='t.me/MHO_Alert'),
-                    InlineKeyboardButton('Support 😁', url=f'{TUTORIAL}')
+                    InlineKeyboardButton('Support 🖲️', url='t.me/KPTechHubYT')
                 ]
                 ]
             await query.message.edit(text=f"<b>🔘 Just Send Series Name and Season OR Use Inline Search Button.\n\n[Dont Use words Like Season/Episode/Series]\n\n♻️ If any series is Not Available, Then Request it at\n@jelybenn_request_Bot\n\n👨‍💻Developer : <a href='https://github.com/KisaraPesanjithPerera'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Support Group : <a href='{TUTORIAL}'>Click here</a>\n📋Update Channel : <a href='https://t.me/MHO_Alert'>🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛🎥𝐀𝐥𝐞𝐫𝐭🔥</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -299,7 +299,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('☀ Support ☀', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖲️ Support 🖲️', url='t.me/MHO_Alert')
                     ]
                     ]
                 
@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('☀ Support ☀', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖲️ Support 🖲️', url='t.me/MHO_Alert')
                     ]
                     ]
                 
