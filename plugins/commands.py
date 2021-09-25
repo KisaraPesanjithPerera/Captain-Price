@@ -33,10 +33,10 @@ async def start(bot, cmd):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("❖ Join Updates Channel ❖", url=invite_link.invite_link)
+                                InlineKeyboardButton("♻️ Join Updates Channel ♻️", url='t.me/MHO_Alert')
                             ],
                             [
-                                InlineKeyboardButton("↺ Try Again ↻", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔰 Try Again 🔰", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -68,7 +68,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('☀ Support ☀', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖲️ Updates 🖲️', url='t.me/MHO_Alert')
                     ],
                     [
                         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
@@ -90,7 +90,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👉 Join Updates Channel 👈", url=invite_link.invite_link)
+                        InlineKeyboardButton("♻️ Join Updates Channel ♻️", url='t.me/MHO_Alert')
                     ]
                 ]
             )
@@ -107,7 +107,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("🖲️ My Updates 🖲️", url="https://t.me/MHO_Alert")
                     ],
                     [
-                        InlineKeyboardButton("❖ About Me ❖", callback_data="about")
+                        InlineKeyboardButton("♻️ About Me ♻️", callback_data="about")
                     ]
                 ]
             )
@@ -147,7 +147,7 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("⏳Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 All My DB Saved files: {total}')
@@ -170,7 +170,7 @@ async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("Processing...⏳", quote=True)
+        msg = await message.reply("⏳Processing...⏳", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -197,7 +197,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('🔔 My Updates 🔔', url='https://t.me/MHO_Alert'),
-            InlineKeyboardButton('🗴 Support 🗴', url=f'{TUTORIAL}')
+            InlineKeyboardButton('🖲️ Support 🖲️', url='t.me/KPTechHubYT')
         ]
         ]
     await message.reply(text=f"<b>👋Hi,\nI am Very Powerfull Movie Filter Bot By @MHO_Alert\n\nAbout Me 🗯\n🔬Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a>\nSource Code 📑 : 🔐\nSupport 🌻: <a href='{TUTORIAL}'>Click here</a>\nMy Updates 🎇: <a href='https://t.me/MHO_Alert'>Click here</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
