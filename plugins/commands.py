@@ -107,7 +107,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("Support 🌺", url="https://t.me/MainlandGroup_CC")
-                        InlineKeyboardButton("Movie group 🍿", url="https://t.me/MHO_Alert")
+                        InlineKeyboardButton("Movie Group 🍿", url="https://t.me/MovieHubOfficialSL")
                     ],
                     [
                         InlineKeyboardButton("➕Add Me to Group➕", url="http://t.me/MHOFilter_bot?startgroup=botstart")
