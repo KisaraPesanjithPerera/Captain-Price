@@ -95,6 +95,7 @@ async def start(bot, cmd):
             )
         )
     else:
+        await cmd.reply_sticker("CAACAgUAAxkBAAEBLAJhfR09sMz4vnOsfXscYRps5N3GXwACIgQAAlk86VdhxeImRbvIsB4E")
         await cmd.reply_text(
             START_MSG,
             parse_mode="Markdown",
