@@ -106,7 +106,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("🖲️ My Updates 🖲️", url="https://t.me/MHO_Alert")
                     ],
                     [
-                        InlineKeyboardButton("Support 🌺", url="https://t.me/MainlandGroup_CC")
+                        InlineKeyboardButton("Support 🌺", url="https://t.me/MainlandGroup_CC"),
                         InlineKeyboardButton("Movie Group 🍿", url="https://t.me/MovieHubOfficialSL")
                     ],
                     [
