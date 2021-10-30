@@ -102,11 +102,14 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔎 Search Here 🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Inline Search 🔎", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("🖲️ My Updates 🖲️", url="https://t.me/MHO_Alert")
                     ],
                     [
-                        InlineKeyboardButton("♻️ About Me ♻️", callback_data="about")
+                        InlineKeyboardButton("Support 🌺", url="https://t.me/MainlandGroup_CC")
+                        InlineKeyboardButton("Movie group 🍿", url="https://t.me/MHO_Alert")
+                    [
+                        InlineKeyboardButton("➕Add Me to Group➕", url="http://t.me/MHOFilter_bot?startgroup=botstart")
                     ]
                 ]
             )
