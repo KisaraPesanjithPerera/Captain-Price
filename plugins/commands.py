@@ -1,4 +1,3 @@
-  
 import os
 import logging
 from pyrogram import Client, filters
@@ -147,7 +146,7 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("⏳Processing...⏳", quote=True)
+    msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
         await msg.edit(f'📁 All My DB Saved files: {total}')
