@@ -391,7 +391,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
             InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
             ],[
-            InlineKeyboardButton('Help', callback_data='help')
+            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -509,7 +509,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
-            InlineKeyboardButton('👮‍♂️ Admin', callback_data='admin')
+            InlineKeyboardButton('My Stats 🚀', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
