@@ -114,6 +114,7 @@ async def start(client, message):
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
+           
     """Send basic information of channel"""
     if isinstance(CHANNELS, (int, str)):
         channels = [CHANNELS]
@@ -142,19 +143,7 @@ async def channel_info(bot, message):
         os.remove(file)
 
 
-@Client.on_message(filters.command('total') & filters.user(ADMINS))
-async def total(bot, message):
-    """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
-    try:
-        total = await Media.count_documents()
-        await msg.edit(f'📁 All My DB Saved files: {total}')
-    except Exception as e:
-        logger.exception('Failed to check total files')
-        await msg.edit(f'Error: {e}')
-
-
-@Client.on_message(filters.command('logger') & filters.user(ADMINS))
+@Client.on_message(filters.command('logs') & filters.user(ADMINS))
 async def log_file(bot, message):
     """Send log file"""
     try:
@@ -162,13 +151,12 @@ async def log_file(bot, message):
     except Exception as e:
         await message.reply(str(e))
 
-
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
     reply = message.reply_to_message
     if reply and reply.media:
-        msg = await message.reply("⏳Processing...⏳", quote=True)
+        msg = await message.reply("Processing...⏳", quote=True)
     else:
         await message.reply('Reply to file with /delete which you want to delete', quote=True)
         return
@@ -190,12 +178,32 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
-@Client.on_message(filters.command('about'))
-async def bot_info(bot, message):
-    buttons = [
-        [
-            InlineKeyboardButton('🔔 My Updates 🔔', url='https://t.me/MHO_Alert'),
-            InlineKeyboardButton('🖲️ Support 🖲️', url='t.me/KPTechHubYT')
-        ]
-        ]
-    await message.reply(text=f"<b>👋Hi,\nI am Very Powerfull Movie Filter Bot By @MHO_Alert\n\nAbout Me 🗯\n🔬Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram</a>\nSource Code 📑 : 🔐\nSupport 🌻: <a href='{TUTORIAL}'>Click here</a>\nMy Updates 🎇: <a href='https://t.me/MHO_Alert'>Click here</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+
+
+@Client.on_message(filters.command('deleteall') & filters.user(ADMINS))
+async def delete_all_index(bot, message):
+    await message.reply_text(
+        'This will delete all indexed files.\nDo you want to continue??',
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text="YES", callback_data="autofilter_delete"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        text="CANCEL", callback_data="close_data"
+                    )
+                ],
+            ]
+        ),
+        quote=True,
+    )
+
+
+@Client.on_callback_query(filters.regex(r'^autofilter_delete'))
+async def delete_all_index_confirm(bot, message):
+    await Media.collection.drop()
+    await message.answer()
+    await message.message.edit('Succesfully Deleted All The Indexed Files.')
