@@ -18,7 +18,7 @@ class script(object):
 🌹 **Build Status :** 𝚅2.5
 """
     SOURCE_TXT = """MMa</a>"""
-    MANUELFILTER_TXT = """Coming Soon"""
+    MANUELFILTER_TXT = """Coming Soon 🚀....."""
     BUTTON_TXT = """Help: <b>Buttons</b>
     
 - Eva Maria Supports both url and alert inline buttons.
@@ -40,10 +40,10 @@ class script(object):
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
     
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+
+1. Add me to your group
+2. Then give me admin
+3. Just send the name of the movie/TV series.🎥 Result will come to you.😍"""
     
     CONNECTION_TXT = """Help: <b>Connections</b>
     
@@ -60,17 +60,29 @@ class script(object):
 • /connections - <code>list all your connections</code>"""
     
     EXTRAMOD_TXT = """
+Help: <b>Extra Modules 🍀</b>
+    
+<b>NOTE:</b>
+these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+
 <b>Commands and Usage:</b>
+
 • /id - <code>get id of a specifed user.</code>
+
 • /info  - <code>get information about a user.</code>
-• /imdb  - <code>get the film information from IMDb source.</code>"""
+
+• /imdb  - <code>get the film information from IMDb source.</code>
+
+Cming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+
+Movie Player , Movie Uploader"""
     ADMIN_TXT = """
 Coming Soon"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """📂 Total Movie saved : <code>{}</code>
+👤 Total Users : <code>{}</code>
+📝 Total Groups : <code>{}</code>
+🔰 Used Space : <code>{}</code> MB
+🗃️ Free Space : <code>{}</code> MB"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
