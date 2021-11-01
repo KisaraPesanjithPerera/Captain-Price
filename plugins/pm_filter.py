@@ -1,9 +1,13 @@
 import os
+import pyrogram
+import asyncio
+import re
+import ast
 from info import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS, BUTTON
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
 import re
-from pyrogram.errors import UserNotParticipant
+from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
 from utils import get_filter_results, get_file_details, is_subscribed, get_poster
 
 BUTTONS = {}
