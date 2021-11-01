@@ -14,17 +14,17 @@ class script(object):
 ♻️ If any series is Not Available, Then Request it at
 @MovieHubOfficialSL
 
-✨ **My Name :**  [🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥](t.me/MHOFilter_bot)
-👨‍💻 **Developer :** [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy)
-🍀 Data Base : Mango DB
-📝 **Language :** [Python3](https://python.org)
-🧰 **Framework :** [Pyrogram](https://pyrogram.org)
-📡 **Server :** [heroku](https://heroku.com)
-🌹 **Build Status :** 𝚅2.5
+✨ <b>My Name :</b>  [🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥](t.me/MHOFilter_bot)
+👨‍💻 <b>Developer :</b> [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy)
+🍀 <b>Data Base :</b> Mango DB
+📝 <b>Language :</b> [Python3](https://python.org)
+🧰 <b>Framework :</b> [Pyrogram](https://pyrogram.org)
+📡 <b>Server :</b> [heroku](https://heroku.com)
+🌹 <b>Build Status :</b> 𝚅2.5
 """
     SOURCE_TXT = """MMa</a>"""
-    LOGO_TEXT = """ 🔹 `/hlogo` <text> :  Create your logo with your name
- 🔹 `/alogo` <text> :  Create your logo with your name"""
+    LOGO_TEXT = """ 🔹 <code>/hlogo</code> <text> :  Create your logo with your name
+ 🔹 <code>/alogo</code> <text> :  Create your logo with your name"""
     MANUELFILTER_TXT = """Coming Soon 🚀....."""
     BUTTON_TXT = """Help: <b>Buttons</b>
     
