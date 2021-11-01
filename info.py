@@ -34,13 +34,25 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
+# caption
+default_start_cap = """
+📝 File Name : <code>{file_name}</code>
+
+**
+ ┏━━━━•❅•°•❈•°•❅•━━━━┓
+✰👑ɱσѵเε ɦµɓ σƒƒเ૮เαℓ👑✰
+ ┗━━━━•❅•°•❈•°•❅•━━━━┛
+🎭Proudly Presented By🎭 **
+ @MovieHubOfficialSL
+"""
+
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg https://telegra.ph/file/8d226959b0e22428a9da2.jpg')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 P_TTTI_SHOW_OFF = eval((environ.get('P_TTTI_SHOW_OFF', "False")))
 BUTTON = environ.get("BUTTON",False)
-FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
+FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", default_start_cap)
 SINGLE_BUTTON = eval((environ.get('SINGLE_BUTTON', "True")))
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
 if FILE_CAPTION.strip() == "":
