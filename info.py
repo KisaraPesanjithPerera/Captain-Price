@@ -38,11 +38,12 @@ START_MSG = environ.get('START_MSG', default_start_msg)
 default_start_cap = """
 📝 File Name : <code>{file_name}</code>
 
-**
+🧲 File Size : {file_size}
+<b>
  ┏━━━━•❅•°•❈•°•❅•━━━━┓
 ✰👑ɱσѵเε ɦµɓ σƒƒเ૮เαℓ👑✰
  ┗━━━━•❅•°•❈•°•❅•━━━━┛
-🎭Proudly Presented By🎭 **
+🎭Proudly Presented By🎭 </b>
  @MovieHubOfficialSL
 """
 
