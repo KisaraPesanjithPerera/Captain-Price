@@ -37,6 +37,7 @@ START_MSG = environ.get('START_MSG', default_start_msg)
 IMDB = eval((environ.get('IMDB', "True")))
 BUTTON = environ.get("BUTTON",False)
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
+SINGLE_BUTTON = eval((environ.get('SINGLE_BUTTON', "True")))
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
 if FILE_CAPTION.strip() == "":
     CUSTOM_FILE_CAPTION=None
