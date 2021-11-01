@@ -18,6 +18,8 @@ class script(object):
 🌹 **Build Status :** 𝚅2.5
 """
     SOURCE_TXT = """MMa</a>"""
+    LOGO_TEXT = """ 🔹 `/hlogo` <text> :  Create your logo with your name
+ 🔹 `/alogo` <text> :  Create your logo with your name"""
     MANUELFILTER_TXT = """Coming Soon 🚀....."""
     BUTTON_TXT = """Help: <b>Buttons</b>
     
