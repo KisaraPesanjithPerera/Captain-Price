@@ -23,6 +23,7 @@ logger.setLevel(logging.INFO)
 client = AsyncIOMotorClient(DATABASE_URI)
 db = client[DATABASE_NAME]
 instance = Instance.from_db(db)
+imdb = IMDb() 
 
 IClient = AsyncIOMotorClient(DATABASE_URI_2)
 imdbdb=client[DATABASE_NAME_2]
