@@ -97,7 +97,7 @@ async def save_file(media):
             logger.info(media.file_name + " is saved in database")
 
             
-async def get_imdb(query, bulk=False, id=False):
+async def get_poster(query, bulk=False, id=False):
     if not id:
         pattern = re.compile(r"^(([a-zA-Z\s])*)?\s?([1-2]\d\d\d)?", re.IGNORECASE)
         match = pattern.match(query)
@@ -232,7 +232,7 @@ async def is_subscribed(bot, query):
 
     return False
 
-async def get_poster(movie):
+async def get_poster2(movie):
     extract = PTN.parse(movie)
     try:
         title=extract["title"]
