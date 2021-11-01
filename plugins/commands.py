@@ -1,120 +1,114 @@
 import os
 import logging
+import random
+from Script import script
 from pyrogram import Client, filters
+from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from info import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
-from utils import Media, get_file_details
-from info import TUTORIAL 
-from pyrogram.errors import UserNotParticipant
+from database.ia_filterdb import Media, get_file_details
+from database.users_chats_db import db
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, LOG_CHANNEL, PICS
+from utils import get_size, is_subscribed, temp
+
 logger = logging.getLogger(__name__)
 
 @Client.on_message(filters.command("start"))
-async def start(bot, cmd):
-    usr_cmdall1 = cmd.text
-    if usr_cmdall1.startswith("/start MovieHubOfficialSL"):
-        if AUTH_CHANNEL:
-            invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
-            try:
-                user = await bot.get_chat_member(int(AUTH_CHANNEL), cmd.from_user.id)
-                if user.status == "kicked":
-                    await bot.send_message(
-                        chat_id=cmd.from_user.id,
-                        text="Sorry Sir, You are Banned to use me 😥.",
-                        parse_mode="markdown",
-                        disable_web_page_preview=True
-                    )
-                    return
-            except UserNotParticipant:
-                ident, file_id = cmd.text.split("_-_-_-_")
-                await bot.send_message(
-                    chat_id=cmd.from_user.id,
-                    text="**You have not joined our My Updates channel😒💔 .The Join Our Channel shown below is for you to join the channel .You will never lose while being on the Updates channel 🤗!**",
-                    reply_markup=InlineKeyboardMarkup(
-                        [
-                            [
-                                InlineKeyboardButton("♻️ Join Updates Channel ♻️", url='t.me/MHO_Alert')
-                            ],
-                            [
-                                InlineKeyboardButton("🔰 Try Again 🔰", callback_data=f"checksub#{file_id}")
-                            ]
-                        ]
-                    ),
-                    parse_mode="markdown"
-                )
-                return
-            except Exception:
-                await bot.send_message(
-                    chat_id=cmd.from_user.id,
-                    text="Something went Wrong.",
-                    parse_mode="markdown",
-                    disable_web_page_preview=True
-                )
-                return
-        try:
-            ident, file_id = cmd.text.split("_-_-_-_")
-            filedetails = await get_file_details(file_id)
-            for files in filedetails:
-                title = files.file_name
-                size=files.file_size
-                f_caption=files.caption
-                if CUSTOM_FILE_CAPTION:
-                    try:
-                        f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
-                    except Exception as e:
-                        print(e)
-                        f_caption=f_caption
-                if f_caption is None:
-                    f_caption = f"{files.file_name}"
-                buttons = [
-                    [
-                        InlineKeyboardButton('🖲️ Updates 🖲️', url='t.me/MHO_Alert')
-                    ],
-                    [
-                        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat='')
-                    ]
-                    ]
-                await bot.send_cached_media(
-                    chat_id=cmd.from_user.id,
-                    file_id=file_id,
-                    caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup(buttons)
-                    )
-        except Exception as err:
-            await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
-    elif len(cmd.command) > 1 and cmd.command[1] == 'subscribe':
-        invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
-        await bot.send_message(
-            chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("♻️ Join Updates Channel ♻️", url='t.me/MHO_Alert')
-                    ]
-                ]
-            )
+async def start(client, message):
+    if message.chat.type in ['group', 'supergroup']:
+        buttons = [
+            [
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/MHO_Alert')
+            ],
+            [
+                InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            ]
+            ]
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        if not await db.get_chat(message.chat.id):
+            total=await client.get_chat_members_count(message.chat.id)
+            await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
+            await db.add_chat(message.chat.id, message.chat.title)
+        return await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title), reply_markup=reply_markup)
+    if not await db.is_user_exist(message.from_user.id):
+        await db.add_user(message.from_user.id, message.from_user.first_name)
+        await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
+    if len(message.command) != 2:
+        buttons = [[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
+            ],[
+            InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
+            InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
-    else:
-        await cmd.reply_sticker("CAACAgUAAxkBAAEBLAJhfR09sMz4vnOsfXscYRps5N3GXwACIgQAAlk86VdhxeImRbvIsB4E")
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                        InlineKeyboardButton("Inline Search 🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("🖲️ My Updates 🖲️", url="https://t.me/MHO_Alert")
-                    ],
-                    [
-                        InlineKeyboardButton("Support 🌺", url="https://t.me/MainlandGroup_CC"),
-                        InlineKeyboardButton("Movie Group 🍿", url="https://t.me/MovieHubOfficialSL")
-                    ],
-                    [
-                        InlineKeyboardButton("➕Add Me to Group➕", url="http://t.me/MHOFilter_bot?startgroup=botstart")
-                    ]
-                ]
+        return
+    if AUTH_CHANNEL and not await is_subscribed(client, message):
+        try:
+            invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
+        except ChatAdminRequired:
+            logger.error("Make sure Bot is admin in Forcesub channel")
+            return
+        btn = [
+            [
+                InlineKeyboardButton(
+                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                )
+            ]
+        ]
+
+        if message.command[1] != "subscribe":
+            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+        await client.send_message(
+            chat_id=message.from_user.id,
+            text="**Please Join My Updates Channel to use this Bot!**",
+            reply_markup=InlineKeyboardMarkup(btn),
+            parse_mode="markdown"
             )
+        return
+    if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
+        buttons = [[
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
+            ],[
+            InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
+            InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_photo(
+            photo=random.choice(PICS),
+            caption=script.START_TXT.format(message.from_user.mention),
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+        return
+    file_id = message.command[1]
+    files = (await get_file_details(file_id))[0]
+    title = files.file_name
+    size=get_size(files.file_size)
+    f_caption=files.caption
+    if CUSTOM_FILE_CAPTION:
+        try:
+            f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
+        except Exception as e:
+            print(e)
+            f_caption=f_caption
+    if f_caption is None:
+        f_caption = f"{files.file_name}"
+    await client.send_cached_media(
+        chat_id=message.from_user.id,
+        file_id=file_id,
+        caption=f_caption,
         )
 
 
