@@ -34,6 +34,8 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 BUTTON = environ.get("BUTTON",False)
 FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
