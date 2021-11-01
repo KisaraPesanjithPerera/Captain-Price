@@ -35,7 +35,7 @@ Here you can search files in Inline mode as well as PM, Use the below buttons to
 START_MSG = environ.get('START_MSG', default_start_msg)
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/d9534ffea1f7c12a0da10.mp4')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg https://telegra.ph/file/8d226959b0e22428a9da2.jpg')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 P_TTTI_SHOW_OFF = eval((environ.get('P_TTTI_SHOW_OFF', "False")))
