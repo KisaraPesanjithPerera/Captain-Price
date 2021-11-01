@@ -42,6 +42,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
             InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            ],[
+            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -83,6 +85,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
             InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            ],[
+            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
