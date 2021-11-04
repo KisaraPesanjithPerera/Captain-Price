@@ -1,2 +1,2 @@
-Hari haduwa 🤠
-Oya online ena welawata readme Eka balanna
+Ok Thanks 
+Oyata mage anith Number eke Account eka dennam
