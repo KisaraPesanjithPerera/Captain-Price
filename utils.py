@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL
+from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message
@@ -35,6 +35,7 @@ class temp(object):
     CANCEL = False
     MELCOW = {}
     U_NAME = None
+    B_NAME = None
 
 async def is_subscribed(bot, query):
     try:
@@ -78,32 +79,51 @@ async def get_poster(query, bulk=False, id=False):
     else:
         movieid = int(query)
     movie = imdb.get_movie(movieid)
-    title = movie.get('title')
-    genres = ", ".join(movie.get("genres")) if movie.get("genres") else None
-    rating = str(movie.get("rating"))
     if movie.get("original air date"):
         date = movie["original air date"]
     elif movie.get("year"):
         date = movie.get("year")
     else:
         date = "N/A"
-    poster = movie.get('full-size cover url')
-    plot = movie.get('plot')
-    if plot and len(plot) > 0:
-        plot = plot[0]
+    plot = ""
+    if LONG_IMDB_DESCRIPTION:
+        plot = movie.get('plot')
+        if plot and len(plot) > 0:
+            plot = plot[0]
+    else:
+        plot = movie.get('plot outline')
     if plot and len(plot) > 800:
         plot = plot[0:800] + "..."
+
     return {
-        'title': title,
-        'year': date,
-        'genres': genres,
-        'poster': poster,
+        'title': movie.get('title'),
+        'votes': movie.get('votes'),
+        "aka": list_to_str(movie.get("akas")),
+        "seasons": movie.get("number of seasons"),
+        "box_office": movie.get('box office'),
+        'localized_title': movie.get('localized title'),
+        'kind': movie.get("kind"),
+        "imdb_id": f"tt{movie.get('imdbID')}",
+        "cast": list_to_str(movie.get("cast")),
+        "runtime": list_to_str(movie.get("runtimes")),
+        "countries": list_to_str(movie.get("countries")),
+        "certificates": list_to_str(movie.get("certificates")),
+        "languages": list_to_str(movie.get("languages")),
+        "director": list_to_str(movie.get("director")),
+        "writer":list_to_str(movie.get("writer")),
+        "producer":list_to_str(movie.get("producer")),
+        "composer":list_to_str(movie.get("composer")) ,
+        "cinematographer":list_to_str(movie.get("cinematographer")),
+        "music_team": list_to_str(movie.get("music department")),
+        "distributors": list_to_str(movie.get("distributors")),
+        'release_date': date,
+        'year': movie.get('year'),
+        'genres': list_to_str(movie.get("genres")),
+        'poster': movie.get('full-size cover url'),
         'plot': plot,
-        'rating': rating,
+        'rating': str(movie.get("rating")),
         'url':f'https://www.imdb.com/title/tt{movieid}'
-
     }
-
 # https://github.com/odysseusmax/animated-lamp/blob/2ef4730eb2b5f0596ed6d03e7b05243d93e3415b/bot/utils/broadcast.py#L37
 
 async def broadcast_messages(user_id, message):
@@ -189,6 +209,14 @@ def extract_user(message: Message) -> Union[int, str]:
         user_id = message.from_user.id
         user_first_name = message.from_user.first_name
     return (user_id, user_first_name)
+
+def list_to_str(k):
+    if not k:
+        return "N/A"
+    elif len(k) == 1:
+        return str(k[0])
+    else:
+        return ' '.join(f'{elem}, ' for elem in k)
 
 def last_online(from_user):
     time = ""
