@@ -15,7 +15,7 @@ Contact Me On [Telegram](https://t.me/contac_Robot)
 [Update Channel](https://t.me/senuinfinity)
 
 ## License
-Code released under [The GNU General Public License](LICENSE).
+
 
   
   me mata aue telegram acc hadanna wenne naha ara hacler acc delete karalama acc hadanna puluwan limit panala 
