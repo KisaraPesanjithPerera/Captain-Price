@@ -627,3 +627,37 @@ async def auto_filter(client, message):
             await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b> \n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>📆 Year :</b> <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n\n<b>🖋 StoryLine :</b> <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
         else:
             await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
+
+async def advantage_spell_chok(msg):
+    query = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|send|snd|movie(s)?|new|latest|br((o|u)h?)*|^h(e)?(l)*(o)*|mal(ayalam)?|tamil|file|that|give|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle)", "", msg.text) # plis contribute some common words 
+    query = query.strip()
+    if not query:
+        k = await msg.reply("No valid movie name given 🧐 Please Chack ")
+        await asyncio.sleep(8)
+        await k.delete()
+        return
+    user = msg.from_user.id if msg.from_user else 0
+    imdb_s = await get_poster(query, bulk=True)
+    movielist = [movie.get('title') for movie in imdb_s]
+    splitted = query.split()
+    if len(splitted) > 10:
+        k = await msg.reply("Are you telling the story of some movie?? 😐")
+        await asyncio.sleep(8)
+        await k.delete()
+        return
+    if len(splitted) > 1:
+        movielist += splitted
+        if len(splitted) % 2 == 0:
+            movielist += [f"{ko[1]} {splitted[ko[0] + 1]}"  for ko in enumerate(splitted) if ko[0] % 2 == 0]
+        elif splitted[:-1]:
+            movielist += [f"{ko[1]} {splitted[:-1][ko[0] + 1]}"  for ko in enumerate(splitted[:-1]) if ko[0] % 2 == 0]
+    SPELL_CHECK[msg.message_id] = movielist
+    btn = [[
+                InlineKeyboardButton(
+                    text=movie,
+                    callback_data=f"spolling#{user}#{k}",
+                )
+            ] for k, movie in enumerate(movielist)]
+    btn.append([InlineKeyboardButton(text="Close ❌", callback_data=f'spolling#{user}#close_spellcheck')])
+    await msg.reply('I cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
+    
