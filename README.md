@@ -1,9 +1,5 @@
 <b>
-me mata aye telegram acc hadanna wenne naha ara hacler acc delete karalama acc hadanna puluwan limit panala 
-Wena kauru Hari mama kiyala awot e mama neme ok
+Hari Mama Kiyannam  Mage bot Down Welaaa Error Set ekak puluwan nam Heroku eken balala ee tika fix karala denawada. Mokak hari oya github eke edit kalaada? Podak balanna mage github ekata log welaa  Please.... Loku Udauwak eeka
 
-Aye satiyakin tamai Enna wenne 😭
-
-Oya ara mama hama welema admin denna kiwwa kenata kiyanna 👌
-
+Oyata Mage anith telegram account ekak ethakan dennada? Reply eka meekata update karanna
 <b/>
