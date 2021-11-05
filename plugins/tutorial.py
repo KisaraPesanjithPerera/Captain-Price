@@ -1,4 +1,6 @@
 from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import Message
 
 @Client.on_message(filters.command("How"))
 async def howto(client, message):
