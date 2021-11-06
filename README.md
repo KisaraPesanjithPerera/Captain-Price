@@ -1,2 +1,1 @@
-Bot aaith Down wela poddak balanna. Please....
-Group ekata movie denna widihak naha
+Mama kiyannam
