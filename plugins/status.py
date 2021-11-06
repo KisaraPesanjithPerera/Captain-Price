@@ -19,14 +19,14 @@ async def status_handler(_, m: Message):
     total_users = await db.total_users_count()
     chats = await db.total_chat_count()
     await m.reply_text(
-        text=f"My Server Status 🍀\n\n"
-             f"**📂 Used Space :** {used}({disk_usage}%) \n"
-             f"**🌌 Free Space :** {free} \n"
-             f"**💻 CPU Usage :** {cpu_usage}% \n"
-             f"**☄️ RAM Usage :** {ram_usage}%\n\n"
-             f"**My User Status 🤗**\n\n"
-             f"**Total Users in DB:** `{total_users}`\n"
-             f"**Total Groups in DB:** `{chats}`"
-        parse_mode="Markdown",
+        text=f"<b>My Server Status 🍀</b>\n\n"
+             f"<b>📂 Used Space :</b> {used}({disk_usage}%) \n"
+             f"<b>🌌 Free Space :</b> {free} \n"
+             f"<b>💻 CPU Usage :</b> {cpu_usage}% \n"
+             f"<b>☄️ RAM Usage :</b> {ram_usage}%\n\n"
+             f"<b>My User Status 🤗</b>\n\n"
+             f"<b>Total Users in DB :</b> `{total_users}`\n"
+             f"<b>Total Groups in DB :</b> `{chats}`"
+        parse_mode="html",
         quote=True
     )
