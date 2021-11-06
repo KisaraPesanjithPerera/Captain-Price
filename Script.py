@@ -85,11 +85,18 @@ Cming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭�
 Movie Player , Movie Uploader"""
     ADMIN_TXT = """
 Coming Soon"""
-    STATUS_TXT = """📂 Total Movie saved : <code>{}</code>
+    STATUS_TXT = """My Status 🤗
+    
+📂 Total Movie saved : <code>{}</code>
 👤 Total Users : <code>{}</code>
 📝 Total Groups : <code>{}</code>
 🔰 Used Space : <code>{}</code> MB
-🗃️ Free Space : <code>{}</code> MB"""
+🗃️ Free Space : <code>{}</code> MB
+
+My Server Status 🍀
+
+💻 CPU Usage :</b> {}%
+☄️ RAM Usage :</b> {}%"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
