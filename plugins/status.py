@@ -27,6 +27,6 @@ async def status_handler(_, m: Message):
              f"<b>My User Status 🤗</b>\n\n"
              f"<b>Total Users in DB :</b> `{total_users}`\n"
              f"<b>Total Groups in DB :</b> `{chats}`"
-        parse_mode="html",
+        parse_mode='html',
         quote=True
     )
