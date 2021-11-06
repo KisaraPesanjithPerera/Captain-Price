@@ -1,2 +1,4 @@
-Mama alut acc ekak hada gatta 🤩
-Username @This_World_Is_Best
+Ara hacker aye acc delete kala 🥺
+Oya mage yaluwata kiyanna 😀
+
+Please 🥺
