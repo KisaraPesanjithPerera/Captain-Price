@@ -1,4 +1,2 @@
-Ara hacker aye acc delete kala 🥺
-Oya mage yaluwata kiyanna 😀
-
-Please 🥺
+Bot aaith Down wela poddak balanna. Please....
+Group ekata movie denna widihak naha
