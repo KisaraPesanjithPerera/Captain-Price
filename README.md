@@ -7,3 +7,5 @@ Mama Dan telegram Bot hadanawata wada Anit DeWalt karanna patan gatta 🤩
 mama wage fake aya ei RWS ekatat Kiyanna 🤗
 
 online aawama readme eka balannna
+
+ai balala reply denne nattte
