@@ -1,3 +1,3 @@
-me kollo Meka mage yaluwata yaawanna 😭 ara hacker mage youtube channel ekatat  wade dilaa ❔ please danma kiyANNA oya yata ss ekat yawannnaaaa 🍀
+Ok mama kiyuwa...Aaith bot gen reply dekak enawa.Mee👇.Poddak eeka balanawada.Please😥😑
 
-<img src="image.png"/>
+<img src="Screenshot_20211108_201504_org.telegram.messenger.jpg"/>
