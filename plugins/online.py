@@ -1,6 +1,6 @@
 import re
 from typing import Text
-from pyrogram import Client as bot
+from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, InlineQuery, InlineQueryResultArticle, \
 InputTextMessageContent
