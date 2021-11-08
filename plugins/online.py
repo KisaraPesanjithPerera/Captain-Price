@@ -1,6 +1,6 @@
 import re
 from typing import Text
-from pyrogram import Client as bot
+from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, InlineQuery, InlineQueryResultArticle, \
 InputTextMessageContent
@@ -13,7 +13,7 @@ def nospace(s):
 
     return s
 
-@bot.on_message(filters.command("onlinev"))
+@Client.on_message(filters.command("onlinev"))
 async def movie(_, message):
     name = nospace(message.text.strip().split(None, 1)[1].lower())
     m = await message.reply_text("**Searing🍿**")
