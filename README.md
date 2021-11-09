@@ -1,1 +1,3 @@
-Ok oya heroku ekata dihin resocus off karanna etakota Hari natnam heroku acc eka mekata danna
+Oya balanna. Menna Account eka
+Email :- srilankansibermark2007@gmail.com
+Pass :- Kisara@2007
