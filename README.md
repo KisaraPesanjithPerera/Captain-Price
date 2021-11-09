@@ -1,3 +1,1 @@
-Ok mama kiyuwa...Aaith bot gen reply dekak enawa.Mee👇.Poddak eeka balanawada.Please😥😑
-
-<img src="Screenshot_20211108_201504_org.telegram.messenger.jpg"/>
+Ok oya heroku ekata dihin resocus off karanna etakota Hari natnam heroku acc eka mekata danna
