@@ -13,7 +13,7 @@ def nospace(s):
 
     return s
 
-@bot.on_message(filters.command("onlinev"))
+@Client.on_message(filters.command("onlinev"))
 async def movie(_, message):
     name = nospace(message.text.strip().split(None, 1)[1].lower())
     m = await message.reply_text("**Searing🍿**")
