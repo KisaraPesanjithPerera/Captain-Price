@@ -1,1 +1,1 @@
-Senu Oya aluth telegram account ekak haduwada😑
+Ow Alut System ekak test karanna ekata namata damme . kiyala
