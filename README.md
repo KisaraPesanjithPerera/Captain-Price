@@ -1,8 +1,2 @@
-username :- admin@mho.rf.gd
-
-pw :- mho.rf.gd
-
-Onna 💥
-Domain eka damuda
-
-Ok
+Website eka mokenda host wenne. Eeke gmail , pass evanna.
+  Ethanin  thama edit karanna oone
