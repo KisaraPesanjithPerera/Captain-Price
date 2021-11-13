@@ -26,9 +26,11 @@ class script(object):
     LOGO_TEXT = """ 🔹 <code>/hlogo</code> <text> :  Create your logo with your name
  🔹 <code>/alogo</code> <text> :  Create your logo with your name"""
     MANUELFILTER_TXT = """Coming Soon 🚀....."""
+    
+    
     BUTTON_TXT = """Help: <b>Buttons</b>
     
-- Eva Maria Supports both url and alert inline buttons.
+- Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 
