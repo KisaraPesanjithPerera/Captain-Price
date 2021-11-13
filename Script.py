@@ -67,13 +67,6 @@ My Server Status 🍀
 
 💻 CPU Usage :</b> {}%
 ☄️ RAM Usage :</b> {}%"""
-    LOG_TEXT_G = """Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
-"""
-LOG_TEXT_P = """ID - <code>{}</code>
-Name - {}
-"""
 
 MANUELFILTER_TXT = """ Coming Soon 🌺"""
 AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
@@ -98,3 +91,13 @@ CONNECTION_TXT = """Help: <b>Connections</b>
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
+
+LOG_TEXT_G = """#NewGroup
+Group = {}(<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
+"""
+LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Name - {}
+"""
