@@ -51,14 +51,12 @@ async def give_filter(client,message):
                     elif btn == "[]":
                         await message.reply_cached_media(
                             fileid,
-                            thumb = "https://telegra.ph/file/e157a3ac74673fa09fecd.jpg",
                             caption=reply_text or ""
                         )
                     else:
                         button = eval(btn) 
                         await message.reply_cached_media(
                             fileid,
-                            thumb = "https://telegra.ph/file/e157a3ac74673fa09fecd.jpg",
                             caption=reply_text or "",
                             reply_markup=InlineKeyboardMarkup(button)
                         )
@@ -349,7 +347,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
                     file_id=file_id,
-                    thumb = "https://telegra.ph/file/e157a3ac74673fa09fecd.jpg",
                     caption=f_caption
                     )
                 await query.answer('✌️ Hey Check PM, I have sent files in pm 🤗 \n\n',show_alert = True)
@@ -380,7 +377,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
-            thumb = "https://telegra.ph/file/e157a3ac74673fa09fecd.jpg",
             file_id=file_id,
             caption=f_caption
             )
