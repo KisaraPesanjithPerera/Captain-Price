@@ -54,6 +54,7 @@ default_start_cap = """
  @MovieHubOfficialSL
 """
 
+MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
