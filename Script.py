@@ -37,30 +37,16 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
 <b>Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
 <b>Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
     
+    
 """
+
     SOURCE_TXT = """MMa</a>"""
     LOGO_TEXT = """ 🔹 <code>/hlogo</code> <text> :  Create your logo with your name
  🔹 <code>/alogo</code> <text> :  Create your logo with your name"""
     MANUELFILTER_TXT = """Coming Soon 🚀....."""
     
     
-    BUTTON_TXT = """Help: <b>Buttons</b>
-    
-- Supports both url and alert inline buttons.
 
-<b>NOTE:</b>
-
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format
-
-<b>URL buttons:</b>
-
-<code>[Button Text](buttonurl:https://t.me/MHOFilter_bot)</code>
-
-<b>Alert buttons:</b>
-
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
     
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
     
