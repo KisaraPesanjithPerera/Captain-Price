@@ -40,7 +40,7 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
     
 """
 
-    MANUELFILTER_TXT = """Coming Soon 🚀....."""
+    MANUELFILTER_TXT = """ Coming Soon 🚀....."""
     
     
 
