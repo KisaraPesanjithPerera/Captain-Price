@@ -39,21 +39,15 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
     
     
 """
-
-    MANUELFILTER_TXT = """ Coming Soon 🚀....."""
-    
-    
-
-    
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+MANUELFILTER_TXT = """ Coming Soon 🚀....."""
+AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
     
 <b>NOTE:</b>
 
 1. Add me to your group
 2. Then give me admin
 3. Just send the name of the movie/TV series.🎥 Result will come to you.😍"""
-    
-    CONNECTION_TXT = """Help: <b>Connections</b>
+CONNECTION_TXT = """Help: <b>Connections</b>
     
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
@@ -66,8 +60,7 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
-    
-    EXTRAMOD_TXT = """
+ EXTRAMOD_TXT = """
 Help: <b>Extra Modules 🍀</b>
     
 <b>NOTE:</b>
@@ -84,9 +77,9 @@ these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢�
 Coming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
 
 Movie Player , Movie Uploader"""
-    ADMIN_TXT = """
+ADMIN_TXT = """
 Coming Soon"""
-    STATUS_TXT = """My Status 🤗
+STATUS_TXT = """My Status 🤗
     
 📂 Total Movie saved : <code>{}</code>
 👤 Total Users : <code>{}</code>
@@ -103,7 +96,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#NewUser
+LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 """
