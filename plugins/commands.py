@@ -17,10 +17,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/MHO_Alert')
+                InlineKeyboardButton('🌺 Updates', url='https://t.me/MHO_Alert')
             ],
             [
-                InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+                InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,10 +40,10 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
             ],[
-            InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
-            InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
             ],[
-            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
+            InlineKeyboardButton('🧿 Help 🧿', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -68,7 +68,7 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 Try Again Sir", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -83,10 +83,10 @@ async def start(client, message):
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
             ],[
-            InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
-            InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
             ],[
-            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
+            InlineKeyboardButton('🧿 Help 🧿', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
