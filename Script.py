@@ -22,7 +22,7 @@ class script(object):
 📡 <b>Server :</b> [heroku](https://heroku.com)
 🌹 <b>Build Status :</b> 𝚅2.5
 """
-    credits = """<b>Credit 🌟</b>
+    CREDITS = """<b>Credit 🌟</b>
     
 Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can download movies inline. jelly is an open scoure closed project 🥲.
 
