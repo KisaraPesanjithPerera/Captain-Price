@@ -390,10 +390,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
             ],[
-            InlineKeyboardButton('Updates 👑', url='https://t.me/MHO_Alert'),
-            InlineKeyboardButton('Support 🚀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
             ],[
-            InlineKeyboardButton('🆘 Help 🆘', callback_data='help')
+            InlineKeyboardButton('🧿 Help 🧿', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -417,6 +417,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Notes', callback_data='notes')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
+            InlineKeyboardButton('Close 🗑️', callback_data="close")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
