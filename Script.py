@@ -84,7 +84,7 @@ these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢�
 
 • /imdb  - <code>get the film information from IMDb source.</code>
 
-Cming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+Coming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
 
 Movie Player , Movie Uploader"""
     ADMIN_TXT = """
