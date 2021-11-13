@@ -112,7 +112,6 @@ async def start(client, message):
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
-        thumb = "https://telegra.ph/file/e157a3ac74673fa09fecd.jpg",
         caption=f_caption,
         )
 
