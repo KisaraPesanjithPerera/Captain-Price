@@ -37,3 +37,13 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
 <b>Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
 <b>Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
 """
+    EXTRAMOD_TXT = """Help: <b>Extra Modules 🍀</b>
+    
+<b>NOTE:</b>
+these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+<b>Commands and Usage:</b>
+• /id - <code>get id of a specifed user.</code>
+• /info  - <code>get information about a user.</code>
+• /imdb  - <code>get the film information from IMDb source.</code>
+Coming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+Movie Player , Movie Uploader"""
