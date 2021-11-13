@@ -36,6 +36,4 @@ Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can do
 <b>Mahesh</b> For His Awesome Media-Search-bot
 <b>Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
 <b>Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
-    
-    
 """
