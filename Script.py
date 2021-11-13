@@ -22,20 +22,21 @@ class script(object):
 📡 <b>Server :</b> [heroku](https://heroku.com)
 🌹 <b>Build Status :</b> 𝚅2.5
 """
-    credits = """🔘 Just Send Series Name and Season OR Use Inline Search Button.
+    credits = """<b>Credit 🌟</b>
     
-[Dont Use words Like Season/Episode/Series](https://t.me/MovieHubOfficialSL)
+Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can download movies inline. jelly is an open scoure closed project 🥲.
 
-♻️ If any series is Not Available, Then Request it at
-@MovieHubOfficialSL
+- <b>Dev 👨‍💻</b>
 
-✨ <b>My Name :</b>  [🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥](t.me/MHOFilter_bot)
-👨‍💻 <b>Developer :</b> [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy)
-🍀 <b>Data Base :</b> Mango DB
-📝 <b>Language :</b> [Python3](https://python.org)
-🧰 <b>Framework :</b> [Pyrogram](https://pyrogram.org)
-📡 <b>Server :</b> [heroku](https://heroku.com)
-🌹 <b>Build Status :</b> 𝚅2.5
+<b>[Senu Gamer Boy](https://github.com/SenuGamerBoy)</b>
+
+- <b>Thanks to 👑</b>
+
+<b>Dan</b> For His Awsome Libary
+<b>Mahesh</b> For His Awesome Media-Search-bot
+<b>Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
+<b>Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
+    
 """
     SOURCE_TXT = """MMa</a>"""
     LOGO_TEXT = """ 🔹 <code>/hlogo</code> <text> :  Create your logo with your name
