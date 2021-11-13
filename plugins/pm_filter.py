@@ -421,7 +421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Notes', callback_data='notes')
             ],[
             ],[
-            InlineKeyboardButton('☘️ Credis ☘️', callback_data='credits')
+            InlineKeyboardButton('☘️ Credits ☘️', callback_data='credits')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🗑️', callback_data="close")
@@ -472,7 +472,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.credits,
+            text=script.CREDITS,
             reply_markup=reply_markup,
             parse_mode='html'
         )
