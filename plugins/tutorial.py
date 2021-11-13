@@ -8,8 +8,8 @@ from pyrogram import Client, filters
 tutorial1 = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Next ➡️", callback_data='helpmenu'),
-                    InlineKeyboardButton("Close", callback_data='close')
+                    InlineKeyboardButton('Next ➡️', callback_data='helpmenu'),
+                    InlineKeyboardButton('Close', callback_data='close')
                 ]
             ]
         )
