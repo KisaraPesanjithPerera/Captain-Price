@@ -15,7 +15,7 @@ class script(object):
 @MovieHubOfficialSL
 
 ✨ <b>My Name :</b>  [🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥](t.me/MHOFilter_bot)
-👨‍💻 <b>Developer :</b> [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy)
+👨‍💻 <b>Developers :</b> [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy) & [𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑](https://github.com/KisaraPesanjithPerera)
 🍀 <b>Data Base :</b> Mango DB
 📝 <b>Language :</b> [Python3](https://python.org)
 🧰 <b>Framework :</b> [Pyrogram](https://pyrogram.org)
@@ -24,18 +24,17 @@ class script(object):
 """
     CREDITS = """<b>Credit 🌟</b>
     
-Jelly Bean is a movie auto filter bot as well as one bot in Telegram that can download movies inline. jelly is an open scoure closed project 🥲.
+👁️‍🗨️MovieHub Filter Bot Is A Movie Auto Filter Bot As Well As One Bot In Telegram That Can Download Movies Inline. MHO Filter Bot Is An Open Scoure Closed Project🥲
 
-- <b>Dev 👨‍💻</b>
+- <b>Developers 👨‍💻</b>
 
-<b>[Senu Gamer Boy](https://github.com/SenuGamerBoy)</b>
+<b>[𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy) & [𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑](https://github.com/KisaraPesanjithPerera)</b>
+- <b>Thanks To 👑</b>
 
-- <b>Thanks to 👑</b>
-
-<b>Dan</b> For His Awsome Libary
-<b>Mahesh</b> For His Awesome Media-Search-bot
-<b>Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
-<b>Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
+<b>🏷️Dan</b> For His Awsome Libary
+<b>🏷️Mahesh</b> For His Awesome Media-Search-bot
+<b>🏷️Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
+<b>🏷️Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules 🍀</b>
     
