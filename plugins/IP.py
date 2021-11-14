@@ -4,8 +4,6 @@ import asyncio
 from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from config import API_ID, API_HASH, BOT_TOKEN 
-#edit config.py for self host
 from functools import partial
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
