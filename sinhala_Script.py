@@ -37,3 +37,13 @@ CONNECTION_TXT = """උදව්: <b>සම්බන්ධතා</b>
 • / connect - <code>ඔබගේ PM වෙත විශේෂිත කතාබහක් සම්බන්ධ කරන්න</code>
 • / disconnect - <code>කතාබහකින් විසන්ධි කරන්න</code>
 • /Connections - <code>ඔබගේ සියලු සම්බන්ධතා ලැයිස්තුගත කරන්න</code>"""
+
+LOG_TEXT_G = """#NewGroup
+Group = {}(<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
+"""
+LOG_TEXT_P = """#NewUser
+ID - <code>{}</code>
+Name - {}
+"""
