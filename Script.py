@@ -33,10 +33,10 @@ class script(object):
 
 - <b>Thanks To 👑</b>
 
-<b>🏷️Dan</b> For His Awsome Libary
-<b>🏷️Mahesh</b> For His Awesome Media-Search-bot
-<b>🏷️Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
-<b>🏷️Senu Gamer Boy</b> And His friend <b>SUBIN</b> """
+<b>🏷️ Dan</b> For His Awsome Libary
+<b>🏷️ Mahesh</b> For His Awesome Media-Search-bot
+<b>🏷️ Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
+<b>🏷️ Senu Gamer Boy</b> And His friend <b>Subinps</b> """
 
     EXTRAMOD_TXT = """Help: <b>Extra Modules 🍀</b>
     
