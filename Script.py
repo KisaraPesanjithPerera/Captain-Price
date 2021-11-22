@@ -28,7 +28,8 @@ class script(object):
 
 - <b>Developers 👨‍💻</b>
 
-<b>[𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy) & [𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑](https://github.com/KisaraPesanjithPerera)</b>
+<b>𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 </b>
+<b>𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑</b>
 
 - <b>Thanks To 👑</b>
 
@@ -101,3 +102,5 @@ LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 """
+
+
