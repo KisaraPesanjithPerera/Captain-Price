@@ -56,7 +56,7 @@ default_start_cap = """
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg https://api.singledevelopers.net/logo?name=Movie%20Hub%20Official')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 P_TTTI_SHOW_OFF = eval((environ.get('P_TTTI_SHOW_OFF', "False")))
