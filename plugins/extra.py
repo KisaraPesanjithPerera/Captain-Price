@@ -25,4 +25,5 @@ async def report(bot, message):
             except:
                 pass
         if success:
+            await message.reply_chat_action("typing")
             await message.reply_text("**Reported to Admins 🚀!**")
