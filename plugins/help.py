@@ -41,7 +41,7 @@ help_callback_filter = Filters.create(
 
 
 @Client.on_callback_query(help_callback_filter)
-async def help_answer(c: UtubeBot, q: CallbackQuery):
+async def help_answer(c: Client, q: CallbackQuery):
     pos = int(q.data.split("+")[1])
     await q.answer()
     await q.edit_message_text(
