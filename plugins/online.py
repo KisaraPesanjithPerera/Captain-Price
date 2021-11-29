@@ -19,6 +19,7 @@ async def movie(_, message):
     m = await message.reply_text("**Searing🍿**")
     await m.edit("👇👇 𝙍𝙚𝙨𝙪𝙡𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙌𝙪𝙚𝙧𝙮 👇👇")
     try:
+        await message.reply_chat_action("typing")
         await message.reply_text(
             text=f"Result for your requested query `{name}` \n\n皿───────────────皿\n\n**🍀 View It Online :** [Link Here](https://www.2embed.ru/embed/imdb/movie?id={name})\n**⭐️ IMDB Link : [View Movie Details On imdb](https://www.imdb.com/title/{name}/) \n\n🌾 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 🌾 : @MaX_Bots \n\n皿───────────────皿\n\n💝Brought to You : {message.chat.title}\n\n`■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■`",
             parse_mode="Markdown",
