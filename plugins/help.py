@@ -29,7 +29,7 @@ def map_btns(pos):
     return button
 
 
-@UtubeBot.on_message(
+@Client.on_message(
     Filters.private
     & Filters.incoming
     & Filters.command("help")
@@ -48,7 +48,7 @@ help_callback_filter = Filters.create(
 )
 
 
-@UtubeBot.on_callback_query(help_callback_filter)
+@Client.on_callback_query(help_callback_filter)
 async def help_answer(c: UtubeBot, q: CallbackQuery):
     pos = int(q.data.split("+")[1])
     await q.answer()
