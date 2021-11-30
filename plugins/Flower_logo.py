@@ -33,4 +33,4 @@ async def flow_logo(Client, message):
 """
        await send.edit(result)
    except:
-       await message.reply_text(ssh_result)
+       await message.reply_text(logo_result)
