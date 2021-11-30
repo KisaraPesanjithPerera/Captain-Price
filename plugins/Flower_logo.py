@@ -10,6 +10,12 @@ def nospace(s):
 
     return s
 
+RES = f"""
+🌺 Logo Created success 🌺 
+
+{link}
+"""
+
 @Client.on_message(filters.command("flow_logo"))
 async def flow_logo(Client, message):
    send = await message.reply_text("🚀 Creating Logo.........")
@@ -35,4 +41,4 @@ async def flow_logo(Client, message):
 """
        await send.edit(result)
    except:
-       await message.reply_text(result)
+       await message.reply_text(RES)
