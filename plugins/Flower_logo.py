@@ -30,6 +30,8 @@ async def flow_logo(Client, message):
        stt=json_ssh['st']
        result = f"""
 🌺 Logo Created success 🌺 
+
+{link}
 """
        await send.edit(result)
    except:
