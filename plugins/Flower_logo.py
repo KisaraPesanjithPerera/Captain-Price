@@ -21,7 +21,7 @@ async def flow_logo(Client, message):
    username=name
    api="prem"
    mmm=api+'$'+username
-   logo_result=requests.get(f'https://logo-technostoneyt.herokuapp.com/api/textmaker/alam?text={str(mmm)}&theme=flower&apikey=prem').content
+   logo_result=requests.get(f'https://logo-technostoneyt.herokuapp.com/api/textmaker/alam?text={name}&theme=flower&apikey=prem').content
    try:
        json_logo=json.loads(logo_result)
        u_name=json_logo['username']
