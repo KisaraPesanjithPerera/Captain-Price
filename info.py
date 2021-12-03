@@ -43,20 +43,20 @@ START_MSG = environ.get('START_MSG', default_start_msg)
 
 # caption
 default_start_cap = """
-📝 File Name : <code>{file_name}</code>
+<b>📝 File Name</b> : <code>{file_name}</code>
 
-🧲 File Size : {file_size}
+<b>🧲 File Size</b> : {file_size}
 <b>
  ┏━━━━•❅•°•❈•°•❅•━━━━┓
-✰👑ɱσѵเε ɦµɓ σƒƒเ૮เαℓ👑✰
+    ✰🎮Gαɱҽ々Zσɳҽ🎮✰
  ┗━━━━•❅•°•❈•°•❅•━━━━┛
 🎭Proudly Presented By🎭 </b>
- @MovieHubOfficialSL
+ @Max_Bots_GameZone
 """
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/3553edf2ec4f52e8a5cf9.jpg https://api.singledevelopers.net/logo?name=Movie%20Hub%20Official')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/621f2c6491c0de7a31019.jpg')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 P_TTTI_SHOW_OFF = eval((environ.get('P_TTTI_SHOW_OFF', "False")))
