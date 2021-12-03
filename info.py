@@ -56,7 +56,7 @@ default_start_cap = """
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-PICS = (environ.get('PICS', 'https://te.legra.ph/file/621f2c6491c0de7a31019.jpg')).split()
+PICS = (environ.get('PICS', 'https://te.legra.ph/file/621f2c6491c0de7a31019.jpg https://te.legra.ph/file/749366baf5aa3261c5388.jpg https://te.legra.ph/file/bf6f3b0c90ac817fa5f48.jpg https://te.legra.ph/file/9c66d7fd10190ec8cc8b0.jpg https://te.legra.ph/file/2a0f093fd8fe39dd3c68c.jpg https://te.legra.ph/file/b98c5844bb601c722ca70.jpg')).split()
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MaX_Bots_Support')
 IMDB = eval((environ.get('IMDB', "True")))
 P_TTTI_SHOW_OFF = eval((environ.get('P_TTTI_SHOW_OFF', "False")))
