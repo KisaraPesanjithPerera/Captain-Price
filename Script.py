@@ -23,7 +23,9 @@ class script(object):
 💥<b>Inline Search</b>
 💥<b>Auto Filter</b>
 💥<b>Allow Groups</b>
-💥<b>Ids and User Info</b>"""
+💥<b>Ids & User Info</b>
+💥<b>Ban , Unban Users</b>
+"""
     ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
 ✨ <b>My Name :</b>  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽
@@ -40,6 +42,8 @@ class script(object):
 💥<b>Inline Search</b>
 💥<b>Auto Filter</b>
 💥<b>Allow Groups</b>
+💥<b>Ids & User Info</b>
+💥<b>Ban , Unban Users</b>
 """
     CREDITS = """<b>Credit 🌟</b>
     
