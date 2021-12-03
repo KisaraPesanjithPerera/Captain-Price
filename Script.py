@@ -25,6 +25,8 @@ class script(object):
 💥<b>Allow Groups</b>
 💥<b>Ids & User Info</b>
 💥<b>Ban , Unban Users</b>
+
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots
 """
     ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
@@ -44,6 +46,8 @@ class script(object):
 💥<b>Allow Groups</b>
 💥<b>Ids & User Info</b>
 💥<b>Ban , Unban Users</b>
+
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots
 """
     CREDITS = """<b>Credit 🌟</b>
     
@@ -59,4 +63,6 @@ class script(object):
 <b>🏷️ Dan</b> For His Awsome Libary
 <b>🏷️ Mahesh</b> For His Awesome Media-Search-bot
 <b>🏷️ Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
-<b>🏷️ Senu Gamer Boy</b> And His friend <b>Subinps</b> """
+<b>🏷️ Senu Gamer Boy</b> And His friend <b>Subinps</b>
+
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots"""
