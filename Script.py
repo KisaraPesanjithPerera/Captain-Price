@@ -23,7 +23,7 @@ class script(object):
 💥<b>Inline Search</b>
 💥<b>Auto Filter</b>
 💥<b>Allow Groups</b>
-"""
+💥<b>Ids and User Info</b>"""
     ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
 ✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
