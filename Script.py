@@ -41,7 +41,7 @@ class script(object):
 """
     CREDITS = """<b>Credit 🌟</b>
     
-👁️‍🗨️MovieHub Filter Bot Is A Movie Auto Filter Bot As Well As One Bot In Telegram That Can Download Movies Inline. MHO Filter Bot Is An Open Scoure Closed Project🥲
+🔥𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢 Is A Game Auto Filter Bot As Well As One Bot In Telegram That Can Download Games Inline.  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢 Is An Open Scoure Closed Project🥲
 
 - <b>Developers 👨‍💻</b>
 
