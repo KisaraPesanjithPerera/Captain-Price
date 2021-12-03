@@ -7,8 +7,23 @@ class script(object):
 
 🤖By Using Our Service You Must Agree To Our Privacy Policy 👀
 """
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
+    
+✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
+👨‍💻 <b>Developers :</b> 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 & 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
+🍀 <b>Data Base :</b> Mango DB
+📝 <b>Language :</b> Python3
+🧰 <b>Framework :</b> Pyrogram
+📡 <b>Server :</b> Heroku
+🌹 <b>Build Status :</b> 𝚅2.5
+
+🤖𝕭𝖔𝖙 𝕱𝖊𝖆𝖙𝖚𝖗𝖊𝖘
+
+☢️<b>IMDB Supported</b>
+☢️<b>Inline Search</b>
+☢️<b>Auto Filter</b>
+☢️<b>Allow Groups</b>
+"""
     ABOUT_TXT = """🔘 Just Send Series Name and Season OR Use Inline Search Button.
     
 [Dont Use words Like Season/Episode/Series](https://t.me/MovieHubOfficialSL)
@@ -16,12 +31,12 @@ class script(object):
 ♻️ If any series is Not Available, Then Request it at
 @MovieHubOfficialSL
 
-✨ <b>My Name :</b>  [🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥](t.me/MHOFilter_bot)
-👨‍💻 <b>Developers :</b> [𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢](https://github.com/SenuGamerBoy) & [𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑](https://github.com/KisaraPesanjithPerera)
+✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
+👨‍💻 <b>Developers :</b> 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 & 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
 🍀 <b>Data Base :</b> Mango DB
-📝 <b>Language :</b> [Python3](https://python.org)
-🧰 <b>Framework :</b> [Pyrogram](https://pyrogram.org)
-📡 <b>Server :</b> [heroku](https://heroku.com)
+📝 <b>Language :</b> Python3
+🧰 <b>Framework :</b> Pyrogram
+📡 <b>Server :</b> Heroku
 🌹 <b>Build Status :</b> 𝚅2.5
 """
     CREDITS = """<b>Credit 🌟</b>
