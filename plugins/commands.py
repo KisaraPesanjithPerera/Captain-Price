@@ -37,7 +37,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_Game_Zone')
+            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
             ],[
             InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
             InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
@@ -78,10 +78,10 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_Game_Zone')
+            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
             ],[
             InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
             InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
