@@ -19,10 +19,10 @@ class script(object):
 
 🤖𝕭𝖔𝖙 𝕱𝖊𝖆𝖙𝖚𝖗𝖊𝖘
 
-☢️<b>IMDB Supported</b>
-☢️<b>Inline Search</b>
-☢️<b>Auto Filter</b>
-☢️<b>Allow Groups</b>
+💥<b>IMDB Supported</b>
+💥<b>Inline Search</b>
+💥<b>Auto Filter</b>
+💥<b>Allow Groups</b>
 """
     ABOUT_TXT = """🔘 Just Send Series Name and Season OR Use Inline Search Button.
     
