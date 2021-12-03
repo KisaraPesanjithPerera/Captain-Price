@@ -9,7 +9,7 @@ class script(object):
 """
     HELP_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
-✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
+✨ <b>My Name :</b>  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽
 👨‍💻 <b>Developers :</b> 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 & 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
 🍀 <b>Data Base :</b> Mango DB
 📝 <b>Language :</b> Python3
@@ -26,8 +26,8 @@ class script(object):
 💥<b>Ids and User Info</b>"""
     ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
-✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
-👨‍💻 <b>Developers :</b> 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 & 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
+✨ <b>My Name :</b>  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽
+👨‍💻 <b>Developers :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑 & 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢
 🍀 <b>Data Base :</b> Mango DB
 📝 <b>Language :</b> Python3
 🧰 <b>Framework :</b> Pyrogram
@@ -43,12 +43,12 @@ class script(object):
 """
     CREDITS = """<b>Credit 🌟</b>
     
-🔥𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢 Is A Game Auto Filter Bot As Well As One Bot In Telegram That Can Download Games Inline.  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢 Is An Open Scoure Closed Project🥲
+🔥𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 Is A Game Auto Filter Bot As Well As One Bot In Telegram That Can Download Games Inline.  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 Is An Open Scoure Closed Project🥲
 
 - <b>Developers 👨‍💻</b>
 
-<b>𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 </b>
 <b>𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑</b>
+<b>𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 </b>
 
 - <b>Thanks To 👑</b>
 
