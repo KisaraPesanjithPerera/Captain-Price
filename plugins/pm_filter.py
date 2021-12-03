@@ -385,15 +385,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Movie Group 🍿', url='https://t.me/MovieHubOfficialSL')
+            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
             ],[
             InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
             InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
             ],[
-            InlineKeyboardButton('🧿 Help 🧿', callback_data='help')
+            InlineKeyboardButton('🧿 About 🧿', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -402,21 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "help":
-        buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
-            ],[
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
-            ],[
-            InlineKeyboardButton('Welcome', callback_data='welcome'),
-            InlineKeyboardButton('Admin', callback_data='admin')
-            ],[
-            ],[
-            InlineKeyboardButton('Logo Maker', callback_data='logo'),
-            InlineKeyboardButton('Notes', callback_data='notes')
-            ],[
-            ],[
+        buttons = [[   
             InlineKeyboardButton('☘️ Credits ☘️', callback_data='credits')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -430,7 +416,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MHO_Alert'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/MaX_Bots'),
             InlineKeyboardButton('My Stats 🚀', callback_data='stats')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
