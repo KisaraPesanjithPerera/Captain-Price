@@ -24,13 +24,8 @@ class script(object):
 💥<b>Auto Filter</b>
 💥<b>Allow Groups</b>
 """
-    ABOUT_TXT = """🔘 Just Send Series Name and Season OR Use Inline Search Button.
+    ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
-[Dont Use words Like Season/Episode/Series](https://t.me/MovieHubOfficialSL)
-
-♻️ If any series is Not Available, Then Request it at
-@MovieHubOfficialSL
-
 ✨ <b>My Name :</b>  𝓒𝜟𝓟𝑻𝜟𝓘𝓝 𝓟𝙍𝓘𝓒𝞢
 👨‍💻 <b>Developers :</b> 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 & 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
 🍀 <b>Data Base :</b> Mango DB
@@ -38,6 +33,13 @@ class script(object):
 🧰 <b>Framework :</b> Pyrogram
 📡 <b>Server :</b> Heroku
 🌹 <b>Build Status :</b> 𝚅2.5
+
+🤖𝕭𝖔𝖙 𝕱𝖊𝖆𝖙𝖚𝖗𝖊𝖘
+
+💥<b>IMDB Supported</b>
+💥<b>Inline Search</b>
+💥<b>Auto Filter</b>
+💥<b>Allow Groups</b>
 """
     CREDITS = """<b>Credit 🌟</b>
     
