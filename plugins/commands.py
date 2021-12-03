@@ -32,10 +32,9 @@ async def start(client, message):
         return await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title), reply_markup=reply_markup)
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.id, message.from_user.first_name)
-        await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_Game_Zone')
