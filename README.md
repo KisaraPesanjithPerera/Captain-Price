@@ -116,19 +116,66 @@ python3 bot.py
  - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
  - Thanks To All Everyone In This Journey
 
-### Note
+<h1 align = "center"> ❝𝐓𝐡𝐞 𝐌𝐨𝐬𝐭  𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 𝟐.𝟓 𝐯𝐞𝐫𝐬𝐬𝐢𝐨𝐧 ❞ </h1>
 
-[Note To A So Called Dev](https://telegram.dog/subin_works/203): 
+![github card](https://github-readme-stats.vercel.app/api/pin/?username=szsupunma&repo=sz-rose-bot&theme=dark)
 
-Kanging this codes and and editing a few lines and releasing a V.x  or an [alpha](https://telegram.dog/subin_works/204), beta , gama branches of your repo wont make you a Developer.
-Fork the repo and edit as per your needs.
+# ❓This is an old repository and is not up to date.
+## Contact me if you want to create your own bot from the updated repository but it is always done for a fee💰.
 
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/EvamariaTG/evamaria/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+# 💵 Payment Method
+- 💎Ltc coin ``` LhCj3H8abLuSb81B9ojJYpHPkLz6xCYayn```
+- 💎Bit Coin ``` 17fdwXfHcj3Yeu7LrswnQRX15RzSK5bXER ```
 
-## Inspiration
-This is an attempt to create a clone of a BOAT made out of [banana trees 🌳](https://telegram.dog/GetTGLink/4187)
+## ⚙️ Bot hoster [Sadew Rukshan [ᴄɢꜱ™]](https://t.me/CGSUpdates)
 
-[![For Vaza](https://telegra.ph/file/e743b0c8a04252774bac2.jpg)](https://telegra.ph/file/98342dc186fd7484cba91.mp4 "Oru Kootam Vazhakalk samarpikkunnu")
+<p align="center"> <br>
+    <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Repository Size"> 
+    <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
+ <br>   
+    <img src="https://img.shields.io/github/issues/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Issues">
+    <img src="https://img.shields.io/github/forks/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Forks">
+    <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Stars">
+</p> 
+    
+
+    
+## Credits 🥰    
+- [hirunaofficial](https://github.com/hirunaofficial)
+- [Damantha126](https://github.com/Damantha126)
+- [Sadew451](https://github.com/Sadew451) 
+- [Uvindu-bro](https://github.com/UvinduBro) 
+- [daisyx-old](https://github.com/TeamDaisyX/Daisy-OLD)
+- [innexia](https://github.com/DarkCybers/innexia/tree/Sammy/innexiaBot)
+- [Daisyx](https://github.com/TeamDaisyX/DaisyX)
+- [Group Menter](https://github.com/TeamGroupMenter/GroupMenter)
+
+
+ ## New Features Updated 😊[Here](https://telegra.ph/rose-updates-11-11-3)
+ 
+ # Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
+ 
+ ## Deplaoy Tutorial
+ 
+If you found a database error, follow the steps below
+💡 Warning: Use your bot for your personal use only   
+
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
+
+## 🐾Step 
+Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
+
+## Enjoy Your own Bot!
+
+## 🌟 Don't forget to star this repo if you liked it.
+
+
+ 
+ ![TG Channel](https://img.shields.io/badge/dynamic/json?color=blue&label=szteam%20@szteambots&query=subscribers&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dszteambots&logo=telegram)
+![TG Chat](https://img.shields.io/badge/dynamic/json?color=blue&label=support%20@slbotzone&query=members&url=https%3A%2F%2Fonline-users-api.up.railway.app%2Fcheck%3Fchat%3Dslbotzone&logo=telegram) 
+    
+ 
+    
