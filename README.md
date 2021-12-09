@@ -1,6 +1,6 @@
 # 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰 
 <p align="center"><a href="https://t.me/MaX_Captain_Price_Robot"><img src="https://github.com/KisaraPesanjithPerera/Captain-Price/blob/main/database/logo.png" width="400"></a></p>
-<p align="center"> <br>
+<p align="center">
     <img src="https://img.shields.io/github/license/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=telegram" alt="LICENSE">
     <img src="https://img.shields.io/github/contributors/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=telegram" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=telegram" alt="Repository Size"> 
