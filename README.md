@@ -16,7 +16,7 @@
 </p> 
 
 
-## Features
+## 𝗙𝗘𝝠𝝩𝗨𝗥𝗘𝗦
 
 - [x] Auto Filter
 - [x] IMDB
