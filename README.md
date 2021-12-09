@@ -1,10 +1,7 @@
-
-<p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+# Jely Been Filter Bot
 </p>
-<h1 align="center">
-  <b>Eva Maria Bot</b>
-</h1>
+<p align="center"><a href="https://t.me/MaX_Bots"><img src="https://telegra.ph/file/49dda0698f526f267edce.png" width="400"></a></p>
+<p align="center">
 
 
 [![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
