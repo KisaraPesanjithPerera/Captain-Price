@@ -1,8 +1,4 @@
 # 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰 
-</p>
-<p align="center"><a href="https://t.me/MaX_Captain_Price_Robot"><img src="https://github.com/KisaraPesanjithPerera/Captain-Price/blob/main/database/logo.png" width="400"></a></p>
-<p align="center">
-
 </a>
 </p>
 <p align="center">
@@ -20,6 +16,9 @@
     <img src="https://img.shields.io/github/followers/KisaraPesanjithPerera?style=social">
   </a>  
 </p>
+</p>
+<p align="center"><a href="https://t.me/MaX_Captain_Price_Robot"><img src="https://github.com/KisaraPesanjithPerera/Captain-Price/blob/main/database/logo.png" width="400"></a></p>
+<p align="center">
 <p align="center">
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
 </p> 
