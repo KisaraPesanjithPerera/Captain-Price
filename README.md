@@ -1,6 +1,6 @@
 # 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰 
 </p>
-<p align="center"><a href="https://t.me/MaX_Bots"><img src="https://telegra.ph/file/49dda0698f526f267edce.png" width="400"></a></p>
+<p align="center"><a href="https://t.me/MaX_Captain_Price_Robot"><img src="https://github.com/KisaraPesanjithPerera/Captain-Price/blob/main/database/logo.png" width="400"></a></p>
 <p align="center">
 
 
