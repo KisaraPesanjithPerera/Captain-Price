@@ -3,16 +3,25 @@
 <p align="center"><a href="https://t.me/MaX_Captain_Price_Robot"><img src="https://github.com/KisaraPesanjithPerera/Captain-Price/blob/main/database/logo.png" width="400"></a></p>
 <p align="center">
 
+</a>
+</p>
+<p align="center">
+  <a href="https://github.com/KisaraPesanjithPerera/Captain-Price/stargazers">
+    <img src="https://img.shields.io/github/stars/KisaraPesanjithPerera/Captain-Price?style=social">
 
-<p align="center"> <br>
-    <img src="https://img.shields.io/github/license/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Repository Size"> 
+  </a>
+  
+  <a href="https://github.com/KisaraPesanjithPerera/Captain-Price/fork">
+    <img src="https://img.shields.io/github/forks/KisaraPesanjithPerera/Captain-Price?label=Fork&style=social">
+
+  </a>
+  
+  <a href="https://github.com/KisaraPesanjithPerera/Captain-Price/fork">
+    <img src="https://img.shields.io/github/followers/KisaraPesanjithPerera?style=social">
+  </a>  
+</p>
+<p align="center">
     <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
- <br>   
-    <img src="https://img.shields.io/github/issues/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Issues">
-    <img src="https://img.shields.io/github/forks/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Forks">
-    <img src="https://img.shields.io/github/stars/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Stars">
 </p> 
 
 
