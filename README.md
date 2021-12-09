@@ -29,9 +29,9 @@
 - [x] Ids & User Info 
 - [x] Ban & Unban 
 
-## Variables
-
-Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up with your edits.
+ ## 𝗗𝗘𝗣𝗟𝝤𝝪 𝝩𝗨𝝩𝝤𝗥𝗜𝝠𝗟
+ 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KisaraPesanjithPerera/Captain-Price) 
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -144,16 +144,6 @@ python3 bot.py
  # Contributors
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=szsupunma/sz-rose-bot)   
  
- ## Deplaoy Tutorial
- 
-If you found a database error, follow the steps below
-💡 Warning: Use your bot for your personal use only   
-
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/szsupunma/sz-rose-bot) 
-
-## 🐾Step 
-Your Heroku app > Resources tab > Find more add-ons & search Heroku Postgres > Submit Order Form
-
 ## Enjoy Your own Bot!
 
 ## 🌟 Don't forget to star this repo if you liked it.
