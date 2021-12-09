@@ -1,6 +1,6 @@
 {
-    "name": "Jely Been bot",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "name": "𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰",
+    "description": "When You Going To Send File On Telegram Channel This Bot Will Save That In Database, So You Can Search That Easily In Inline Mode",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -14,56 +14,56 @@
       "index",
       "inline"
     ],
-    "website": "https://telegram.dog/senuinfinity",
-    "repository": "https://github.com/SenuGamerBoy/jelly-been-filter-bot",
+    "website": "https://www.kisarapesanjith.ga",
+    "repository": "https://github.com/KisaraPesanjithPerera/Captain-Price",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "Your Bot token.",
             "value": ""
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get This Value From https://my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "Get This Value From https://my.telegram.org",
             "value": ""
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "Username or ID of Channel or Group. Separate multiple IDs by space.",
             "value": ""
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space. @AnimXinfo_Robot",
+            "description": "Username or ID of Admin. Separate Multiple Admins By Space. @MaX_Captain_Price_Robot",
             "value": ""
         },
         "AUTH_USERS": {
-            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage. @MT_ID_Bot",
+            "description": "Username or ID of Users To Give Access Of Inline Search. Separate Multiple Users By Space.\nLeave It Empty If You Don't Want To Restrict Bot Usage. @MaX_Captain_Price_Robot",
             "value": "",
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "description": "ID Of Channel.Make Sure Bot Is Admin In This Channel. Without Subscribing This Channel Users Cannot Use Bot.",
             "value": "",
             "required": false
         },
         "START_MSG": {
-            "description": "Welcome message for start command",
-            "value": "**Hi, I'm Jely Been Clone you can call me as Jely Been **\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "description": "Welcome Message For Start Command",
+            "value": "**Hi, I'm 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰 Clone You can call me as 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽°™️ 🇱🇰 **\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search😍.",
             "required": false
         },
         "USE_CAPTION_FILTER": {
-            "description": "Whether bot should use captions to improve search results. (True False)",
+            "description": "Whether Bot Should Use Captions To Improve Search Results. (True False)",
             "value": "False",
             "required": false
         },
         "OMDB_API_KEY": {
-            "description": "Pase Your OMDB Key",
+            "description": "Paste Your OMDB Key",
             "value": "",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
-            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "description": "A Custom File Caption For Your Files. Formatable With , file_name, file_caption, file_size, Read Readme.md For Better Understanding.",
             "value": "",
             "required": false
         },
@@ -73,20 +73,20 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://www.youtube.com/watch?v=62PNPsQwIZ8",
+            "description": "mongoDB URI. Get This Value From https://www.mongodb.com For More Help Watch This Video - https://www.youtube.com/watch?v=62PNPsQwIZ8",
             "value": ""
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://www.youtube.com/watch?v=62PNPsQwIZ8",
+            "description": "Name Of The Database In mongoDB. For More Help Watch This Video - https://www.youtube.com/watch?v=62PNPsQwIZ8",
             "value": ""
         },
         "COLLECTION_NAME": {
-            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot Telegram_files",
+            "description": "Name Of The Collections. Defaults To Telegram_files. If You Are Using The Same Database, Then Use Different Collection Name For Each Bot Telegram_files",
             "value": "",
             "required": false
         },
         "CACHE_TIME": {
-            "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
+            "description": "The Maximum Amount Of Time In Seconds That The Result Of The Inline Query May Be Cached On The Server",
             "value": "300",
             "required": false
         }
