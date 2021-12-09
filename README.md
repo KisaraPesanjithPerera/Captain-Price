@@ -4,29 +4,30 @@
 <p align="center">
 
 
-[![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
-[![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
-[![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/EvaMaria)   
-[![Contributors](https://img.shields.io/github/contributors/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/EvaMaria/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+<p align="center"> <br>
+    <img src="https://img.shields.io/github/license/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="LICENSE">
+    <img src="https://img.shields.io/github/contributors/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Contributors">
+    <img src="https://img.shields.io/github/repo-size/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Repository Size"> 
+    <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
+ <br>   
+    <img src="https://img.shields.io/github/issues/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Issues">
+    <img src="https://img.shields.io/github/forks/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Forks">
+    <img src="https://img.shields.io/github/stars/KisaraPesanjithPerera/Captain-Price?style=for-the-badge&logo=github" alt="Stars">
+</p> 
 
 
 ## Features
 
 - [x] Auto Filter
-- [x] Manual Filter
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
 - [x] Index
-- [x] IMDB search
+- [x] IMDB Search
 - [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
+- [x] Random Pics
+- [x] Ids & User Info 
+- [x] Ban & Unban 
 
 ## Variables
 
@@ -126,19 +127,7 @@ python3 bot.py
 
 ## ⚙️ Bot hoster [Sadew Rukshan [ᴄɢꜱ™]](https://t.me/CGSUpdates)
 
-<p align="center"> <br>
-    <img src="https://img.shields.io/github/license/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="LICENSE">
-    <img src="https://img.shields.io/github/contributors/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Contributors">
-    <img src="https://img.shields.io/github/repo-size/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Repository Size"> 
-    <img src="https://img.shields.io/badge/python-3.9-green?style=for-the-badge&logo=appveyor" alt="Python Version">
- <br>   
-    <img src="https://img.shields.io/github/issues/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Issues">
-    <img src="https://img.shields.io/github/forks/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Forks">
-    <img src="https://img.shields.io/github/stars/szsupunma/sz-rose-bot?style=for-the-badge&logo=telegram" alt="Stars">
-</p> 
-    
 
-    
 ## Credits 🥰    
 - [hirunaofficial](https://github.com/hirunaofficial)
 - [Damantha126](https://github.com/Damantha126)
