@@ -77,7 +77,6 @@ You Can Deploy This Bot Anywhere 🇱🇰
 ## 𝗦𝗨𝗣𝗣𝝤𝗥𝝩
 [![Gmail badge](https://img.shields.io/badge/Kisara-Pesanjith-Perera30302f?style=flat&logo=gmail)](mailto:kpwithworks@gmail.com)
 [![github badge](https://img.shields.io/badge/Kisara-Pesanjith-Perera30302f?style=flat&logo=github)](https://github.com/KisaraPesanjithPerera)
-![KP Tech Hub](https://img.shields.io/youtube/channel/subscribers/UC_-caKrhcU3J_ktLQYInwuw?label=KP%20Tech%20Hub&style=social)
 
 ## 𝗖𝗥𝗘𝗗𝗜𝝩𝗦 
  - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
