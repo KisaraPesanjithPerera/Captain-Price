@@ -50,8 +50,8 @@ default_start_cap = """
  ┏━━━━•❅•°•❈•°•❅•━━━━┓
  ✰🎮    𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽    🎮✰
  ┗━━━━•❅•°•❈•°•❅•━━━━┛
-🎭Proudly Presented By🎭 </b>
- @Max_Bots_GameZone
+🥷Proudly Presented By🎭 </b>
+@AnonymousBotsInfinity
 """
 
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
