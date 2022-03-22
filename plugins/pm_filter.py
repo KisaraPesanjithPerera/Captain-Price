@@ -385,10 +385,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CaptainPriceRobot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MovieHubSLOfficial')
+            InlineKeyboardButton('🍿 Movie Group 🍿', url='https://t.me/MovieHubSLOfficial')
             ],[
             InlineKeyboardButton('Updates 🌺', url='https://t.me/AnonymousBotsInfinity'),
             InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
