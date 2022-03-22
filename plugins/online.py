@@ -16,7 +16,7 @@ def nospace(s):
 @Client.on_message(filters.command("onlinev"))
 async def movie(_, message):
     name = nospace(message.text.strip().split(None, 1)[1].lower())
-    m = await message.reply_text("**Searing🍿**")
+    m = await message.reply_text("**Searching🍿**")
     await m.edit("👇👇 𝙍𝙚𝙨𝙪𝙡𝙩 𝙁𝙤𝙧 𝙔𝙤𝙪𝙧 𝙌𝙪𝙚𝙧𝙮 👇👇")
     try:
         await message.reply_chat_action("typing")
