@@ -388,10 +388,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
+            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MovieHubSLOfficial')
             ],[
-            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
-            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/AnonymousBotsInfinity'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
             ],[
             InlineKeyboardButton('🧿 About 🧿', callback_data='help')
         ]]
@@ -407,6 +407,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🗑️', callback_data="close")
+            ],[
+            InlineKeyboardButton('🔐 Source Code 🔐', url='https://github.com/KisaraPesanjithPerera/Captain-Price')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -416,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/MaX_Bots'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/AnonymousBotsInfinity'),
             InlineKeyboardButton('My Stats 🚀', callback_data='stats')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -628,11 +630,11 @@ async def auto_filter(client, message):
             )
         imdb = await get_poster(search) if IMDB else None
         if imdb and imdb.get('poster'):
-            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>📆 Year :</b> <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n\n<b>🖋 StoryLine :</b> <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_photo(photo=imdb.get('poster'), caption=f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n<b>☀️ Languages :</b> <code>{languages}</code>\n<b>👥 Cast :</b> <code>{cast}</code>\n<b>📀 RunTime:</b> {runtime} Minutes\n<b>📆 Release Info :</b> {release_date}\n<b>🎛 Countries :</b> <code>{countries}</code>\n\n<b>🍀Requested By :</b>\n{message.from_user.mention})\n<b>⚙️Powerd By :</b> @AnonymousBotsInfinity", reply_markup=InlineKeyboardMarkup(btn))
         elif imdb:
-            await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b> \n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>📆 Year :</b> <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n\n<b>🖋 StoryLine :</b> <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n<b>☀️ Languages :</b> <code>{languages}</code>\n<b>👥 Cast :</b> <code>{cast}</code>\n<b>📀 RunTime:</b> {runtime} Minutes\n<b>📆 Release Info :</b> {release_date}\n<b>🎛 Countries :</b> <code>{countries}</code>\n\n<b>🍀Requested By :</b>\n{message.from_user.mention})\n<b>⚙️Powerd By :</b> @AnonymousBotsInfinity", reply_markup=InlineKeyboardMarkup(btn))
         else:
-            await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query {search} ‌‌‌‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>📂 Here is What I Found In My Database For Your Query : {search}</b>\n\n<b>🏷 Title :</b> <a href={imdb['url']}>{imdb.get('title')}</a>\n<b>🎭 Genres :</b> {imdb.get('genres')}\n<b>🌟 Rating :</b> <a href={imdb['url']}/ratings>{imdb.get('rating')}</a>\n<b>☀️ Languages :</b> <code>{languages}</code>\n<b>👥 Cast :</b> <code>{cast}</code>\n<b>📀 RunTime:</b> {runtime} Minutes\n<b>📆 Release Info :</b> {release_date}\n<b>🎛 Countries :</b> <code>{countries}</code>\n\n<b>🍀Requested By :</b>\n{message.from_user.mention})\n<b>⚙️Powerd By :</b> @AnonymousBotsInfinity", reply_markup=InlineKeyboardMarkup(btn))
 
 async def advantage_spell_chok(msg):
     query = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|((send|snd|giv(e)?|gib)(\sme)?)|movie(s)?|new|latest|br((o|u)h?)*|^h(e)?(l)*(o)*|mal(ayalam)?|tamil|file|that|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle)", "", msg.text) # plis contribute some common words 
