@@ -10,7 +10,7 @@ class script(object):
     HELP_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
 ✨ <b>My Name :</b>  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽
-👨‍💻 <b>Developers :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑 & 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢
+👨‍💻 <b>Developer :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
 🍀 <b>Data Base :</b> Mango DB
 📝 <b>Language :</b> Python3
 🧰 <b>Framework :</b> Pyrogram
@@ -26,12 +26,12 @@ class script(object):
 💥<b>Ids & User Info</b>
 💥<b>Ban , Unban Users</b>
 
-⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity
 """
     ABOUT_TXT = """<b>🔥𝓗𝓲  𝓽𝓱𝓮𝓻𝓮 </b>{}
     
 ✨ <b>My Name :</b> 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽
-👨‍💻 <b>Developers :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑 & 𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢
+👨‍💻 <b>Developer :</b> 𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑
 🍀 <b>Data Base :</b> Mango DB
 📝 <b>Language :</b> Python3
 🧰 <b>Framework :</b> Pyrogram
@@ -47,16 +47,15 @@ class script(object):
 💥<b>Ids & User Info</b>
 💥<b>Ban , Unban Users</b>
 
-⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity
 """
     CREDITS = """<b>Credit 🌟</b>
     
 🔥𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 Is A Game Auto Filter Bot As Well As One Bot In Telegram That Can Download Games Inline.  𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 Is An Open Scoure Closed Project🥲
 
-- <b>Developers 👨‍💻</b>
+- <b>Developer 👨‍💻</b>
 
 <b>𝙺𝚒𝚜𝚊𝚛𝚊 𝙿𝚎𝚜𝚊𝚗𝚓𝚒𝚝𝚑</b>
-<b>𝚂𝚎𝚗𝚞 𝙶𝚊𝚖𝚎𝚛 𝙱𝚘𝚢 </b>
 
 - <b>Thanks To 👑</b>
 
@@ -65,4 +64,4 @@ class script(object):
 <b>🏷️ Trojanz</b> for Their Awesome Unlimited Filter Bot And AutoFilterBoT
 <b>🏷️ Senu Gamer Boy</b> And His friend <b>Subinps</b>
 
-⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @MaX_Bots"""
+⚙️𝗣𝗼𝘄𝗲𝗿𝗱 𝗕𝘆 :- @AnonymousBotsInfinity"""
