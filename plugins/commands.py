@@ -17,10 +17,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🌺 Updates', url='https://t.me/MaX_Bots')
+                InlineKeyboardButton('🌺 Updates', url='https://t.me/AnonymousBotsInfinity')
             ],
             [
-                InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
+                InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -34,13 +34,13 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CaptainPriceRobot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
+            InlineKeyboardButton('🍿 Movie Group 🍿', url='https://t.me/MovieHubSLOfficial')
             ],[
-            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
-            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/AnonymousBotsInfinity'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
             ],[
             InlineKeyboardButton('🧿 About 🧿', callback_data='help')
         ]]
@@ -78,13 +78,13 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/MaX_Captain_Price_Robot?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/CaptainPriceRobot?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Game Zone 🎮', url='https://t.me/MaX_Bots_GameZone')
+            InlineKeyboardButton('🍿 Movie Group 🍿', url='https://t.me/MovieHubSLOfficial')
             ],[
-            InlineKeyboardButton('Updates 🌺', url='https://t.me/MaX_Bots'),
-            InlineKeyboardButton('Support 🍀', url='https://t.me/MaX_Bots_Support')
+            InlineKeyboardButton('Updates 🌺', url='https://t.me/AnonymousBotsInfinity'),
+            InlineKeyboardButton('Support 🍀', url='https://t.me/AnonymousBotsInfinitySupport')
             ],[
             InlineKeyboardButton('🧿 About 🧿', callback_data='help')
         ]]
