@@ -7,7 +7,7 @@ AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 1. Add me to your group
 2. Then give me admin
-3. Just send the name of the movie/TV series.🎥 Result will come to you.😍"""
+3. Just send the name of the Games,Movies or TV Series☺️ Result will come to you😍"""
 CONNECTION_TXT = """Help: <b>Connections</b>
     
 - Used to connect bot to PM for managing filters 
@@ -25,7 +25,7 @@ CONNECTION_TXT = """Help: <b>Connections</b>
 Help: <b>Extra Modules 🍀</b>
     
 <b>NOTE:</b>
-these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+these are the extra features of 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 🇱🇰
 
 <b>Commands and Usage:</b>
 
@@ -35,9 +35,9 @@ these are the extra features of 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢�
 
 • /imdb  - <code>get the film information from IMDb source.</code>
 
-Coming Soon features For 🔥𝐌𝐨𝐯𝐢𝐞𝐇𝐮𝐛 𝐅𝐢𝐥𝐭𝐞𝐫𝐬🔥
+Coming Soon features For 𝗖𝝠𝝦𝝩𝝠𝝞𝝥 𝝦𝗥𝝞𝗖𝝽 🇱🇰
 
-Movie Player , Movie Uploader"""
+Movie Player , Movie Uploader , Game Founder"""
 ADMIN_TXT = """
 Coming Soon"""
 STATUS_TXT = """My Status 🤗
