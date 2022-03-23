@@ -21,7 +21,7 @@ async def movie(_, message):
     try:
         await message.reply_chat_action("typing")
         await message.reply_text(
-            text=f"Result for your requested query `{name}` \n\n皿───────────────皿\n\n**🍀 View It Online :** [Link Here](https://www.2embed.ru/embed/imdb/movie?id={name})\n**⭐️ IMDB Link : [View Movie Details On imdb](https://www.imdb.com/title/{name}/) \n\n🌾 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 🌾 : @MaX_Bots \n\n皿───────────────皿\n\n💝Brought to You : {message.chat.title}\n\n`■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■`",
+            text=f"Result for your requested query `{name}` \n\n皿───────────────皿\n\n**🍀 View It Online :** [Link Here](https://www.2embed.ru/embed/imdb/movie?id={name})\n**⭐️ IMDB Link : [View Movie Details On imdb](https://www.imdb.com/title/{name}/) \n\n🥷 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 🥷 : @AnonymousBotsInfinity \n\n皿───────────────皿\n\n💝Brought to You : {message.chat.title}\n\n`■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■`",
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
